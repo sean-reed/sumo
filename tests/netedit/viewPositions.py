@@ -371,8 +371,8 @@ class elements:
             y = 221
 
         class parkingArea:
-            x = 343
-            y = 160
+            x = 340
+            y = 185
 
         class parkingSpace:
             x = 437
