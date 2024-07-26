@@ -208,12 +208,12 @@ class network:
     class connection:
 
         class connectionA:
-            x = 420
-            y = 200
+            x = 400
+            y = 194
 
         class connectionB:
-            x = 458
-            y = 240
+            x = 446
+            y = 220
 
         class laneUpLeft:
             x = 460
