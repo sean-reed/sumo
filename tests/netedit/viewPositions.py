@@ -344,6 +344,12 @@ class elements:
         down = -70
         left = -70
         right = 70
+        
+    class movementRadiusB:
+        up = 100
+        down = -100
+        left = -100
+        right = 100
 
     # additional (for inspect, delete, etc.)
     class additionals:
