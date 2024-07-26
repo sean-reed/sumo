@@ -1,23 +1,5 @@
-default
+basic
 
-default_button
+force
 
-abort
-
-abort_button
-
-remove_last
-
-remove_last_button
-
-invalid_vclass
-
-single_edge
-
-id
-
-color
-
-repeat
-
-cycletime
+change_vclass
