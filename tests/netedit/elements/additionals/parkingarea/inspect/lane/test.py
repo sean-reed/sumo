@@ -47,16 +47,16 @@ netedit.inspectMode()
 netedit.leftClick(referencePosition, netedit.positions.elements.additionals.parkingArea)
 
 # Change parameter lane with a non valid value (dummy lane)
-netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.lane, "dummy lane", True)
+netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.lane, "dummy lane", False)
 
 # Change parameter lane with a valid value (different edge)
-netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.lane, "EdgeCenter1_1", True)
+netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.lane, "EdgeCenter1_1", False)
 
 # Change parameter lane with a valid value (original edge, same lane)
-netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.lane, "EdgeCenter1_0", True)
+netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.lane, "EdgeCenter1_0", False)
 
 # Change parameter lane with a valid value (original edge, different lane)
-netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.lane, "EdgeCenter1_1", True)
+netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.lane, "EdgeCenter1_1", False)
 
 # Check undos and redos
 netedit.checkUndoRedo(referencePosition)

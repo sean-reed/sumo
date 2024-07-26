@@ -47,19 +47,19 @@ netedit.inspectMode()
 netedit.leftClick(referencePosition, netedit.positions.elements.additionals.parkingArea)
 
 # Change parameter StartPos with a non valid value (dummy)
-netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.startPos, "dummyStartPos", True)
+netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.startPos, "dummyStartPos", False)
 
 # Change parameter StartPos with a valid value (empty)
-netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.startPos, "", True)
+netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.startPos, "", False)
 
 # Change parameter StartPos with a valid value (< 0)
-netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.startPos, "-5", True)
+netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.startPos, "-5", False)
 
 # Change parameter StartPos with a non valid value (> endPos)
-netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.startPos, "400", True)
+netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.startPos, "400", False)
 
 # Change parameter StartPos with a valid value
-netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.startPos, "20", True)
+netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.startPos, "20", False)
 
 # Check undos and redos
 netedit.checkUndoRedo(referencePosition)

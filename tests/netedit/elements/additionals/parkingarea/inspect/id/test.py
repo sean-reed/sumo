@@ -50,13 +50,13 @@ netedit.inspectMode()
 netedit.leftClick(referencePosition, netedit.positions.elements.additionals.parkingArea)
 
 # Change parameter id with a non valid value (Duplicated ID)
-netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.id, "pa_1", True)
+netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.id, "pa_1", False)
 
 # Change parameter id with a non valid value (Invalid ID)
-netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.id, "Id with spaces", True)
+netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.id, "Id with spaces", False)
 
 # Change parameter id with a valid value
-netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.id, "correctID", True)
+netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.id, "correctID", False)
 
 # Check undos and redos
 netedit.checkUndoRedo(referencePosition)
