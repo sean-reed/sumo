@@ -47,7 +47,7 @@ netedit.inspectMode()
 netedit.leftClick(referencePosition, netedit.positions.elements.additionals.parkingArea)
 
 # Change parameter friendlyPos with a different value
-netedit.modifyBoolAttribute(netedit.attrs.parkingArea.inspect.friendlyPos, False)
+netedit.modifyBoolAttribute(netedit.attrs.parkingArea.inspect.friendlyPos, True)
 
 # Check undos and redos
 netedit.checkUndoRedo(referencePosition)

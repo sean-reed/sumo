@@ -47,16 +47,16 @@ netedit.inspectMode()
 netedit.leftClick(referencePosition, netedit.positions.elements.additionals.parkingArea)
 
 # Change parameter Width with a non valid value (dummy)
-netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.width, "dummyWidth", False)
+netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.width, "dummyWidth", True)
 
 # Change parameter Width with a non valid value (negative)
-netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.width, "-5", False)
+netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.width, "-5", True)
 
 # Change parameter Width with a non valid value (0)
-netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.width, "0", False)
+netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.width, "0", True)
 
 # Change parameter Width with a valid value
-netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.width, "2.3", False)
+netedit.modifyAttribute(netedit.attrs.parkingArea.inspect.width, "2.3", True)
 
 # Check undos and redos
 netedit.checkUndoRedo(referencePosition)
