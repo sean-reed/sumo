@@ -38,19 +38,19 @@ netedit.leftClick(referencePosition, netedit.positions.network.edge.leftBot)
 netedit.modifyAttribute(netedit.attrs.edge.inspect.stopOffset, "4", False)
 
 # Change parameter 8 with an non valid value (dummy)
-netedit.modifyAttribute(netedit.attrs.edge.inspect.stopException, "dummyException", False)
+netedit.modifyAttribute(netedit.attrs.edge.inspect.stopOffsetException, "dummyException", False)
 
 # Change parameter 8 with a valid value (empty)
-netedit.modifyAttribute(netedit.attrs.edge.inspect.stopException, "", False)
+netedit.modifyAttribute(netedit.attrs.edge.inspect.stopOffsetException, "", False)
 
 # Change parameter 8 with a valid value (different separators)
-netedit.modifyAttribute(netedit.attrs.edge.inspect.stopException, "authority  army, passenger; taxi. tram", False)
+netedit.modifyAttribute(netedit.attrs.edge.inspect.stopOffsetException, "authority  army, passenger; taxi. tram", False)
 
 # Change parameter 8 with a valid value (empty)
-netedit.modifyAttribute(netedit.attrs.edge.inspect.stopException, "", False)
+netedit.modifyAttribute(netedit.attrs.edge.inspect.stopOffsetException, "", False)
 
 # Change parameter 8 with a valid value (empty)
-netedit.modifyAttribute(netedit.attrs.edge.inspect.stopException,
+netedit.modifyAttribute(netedit.attrs.edge.inspect.stopOffsetException,
                         "authority army vip passenger hov taxi bus coach tram bicycle", False)
 
 # Check undos
