@@ -34,21 +34,12 @@ netedit.createEdgeMode()
 # add lane
 netedit.changeDefaultBoolValue(netedit.attrs.lane.create.add)
 
-# remove lane
-netedit.changeDefaultBoolValue(netedit.attrs.lane.create.remove)
-
-# add lane
-netedit.changeDefaultBoolValue(netedit.attrs.lane.create.add)
-
 # Create two nodes
 netedit.leftClick(referencePosition, netedit.positions.network.junction.positionA)
 netedit.leftClick(referencePosition, netedit.positions.network.junction.positionB)
 
 # Check undo and redo
 netedit.checkUndoRedo(referencePosition)
-
-# rebuild network
-netedit.rebuildNetwork()
 
 # save Netedit config
 netedit.saveNeteditConfig(referencePosition)
