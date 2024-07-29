@@ -255,7 +255,7 @@ class lane:
         add = 23
         remove = 24
         speed = 25
-        allowButton = 26
+        allowButton = 25
         allow = 27
         disallow = 28
         width = 29
