@@ -171,7 +171,7 @@ class edge:
         useTemplate = 7
         numLanes = 9
         speed = 10
-        allowButton = 11
+        allowButton = 10
         allow = 12
         disallow = 13
         spreadType = 14
