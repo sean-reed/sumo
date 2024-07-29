@@ -28,29 +28,21 @@ import neteditTestFunctions as netedit  # noqa
 # Open netedit
 neteditProcess, referencePosition = netedit.setupAndStart(neteditTestRoot)
 
-# recompute
-netedit.rebuildNetwork()
-
-# go to inspect mode
-netedit.inspectMode()
-
-# inspect edge
-netedit.leftClick(referencePosition, netedit.positions.network.edge.leftBot)
+# Change to create mode
+netedit.createEdgeMode()
 
 # Change parameter 8 with a valid value (empty)
 netedit.modifyAttributeVClassDialog(netedit.attrs.edge.inspect.allowedButton, netedit.attrs.dialog.allowVClass.tram, False)
 
-# recompute
+# Create two nodes
+netedit.leftClick(referencePosition, netedit.positions.network.junction.positionB)
+netedit.leftClick(referencePosition, netedit.positions.network.junction.positionC)
+
+# Check undo and redo
+netedit.checkUndoRedo(referencePosition)
+
+# rebuild network
 netedit.rebuildNetwork()
-
-# Check undos
-netedit.undo(referencePosition, 4)
-
-# recompute
-netedit.rebuildNetwork()
-
-# check redos
-netedit.redo(referencePosition, 4)
 
 # save Netedit config
 netedit.saveNeteditConfig(referencePosition)
