@@ -41,19 +41,19 @@ netedit.inspectMode()
 netedit.leftClick(referencePosition, netedit.positions.network.edge.leftBot)
 
 # Change parameter 5 with an non valid value (dummy)
-netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.allowed, "DummyAllowed", False)
+netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.allow, "DummyAllowed", False)
 
 # Change parameter 5 with a valid value (empty)
-netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.allowed, "", False)
+netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.allow, "", False)
 
 # Change parameter 5 with a valid value (different separators)
-netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.allowed, "authority  army, passenger; taxi. tram", False)
+netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.allow, "authority  army, passenger; taxi. tram", False)
 
 # Change parameter 5 with a valid value (empty)
-netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.allowed, "", False)
+netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.allow, "", False)
 
 # Change parameter 5 with a valid value (empty)
-netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.disallowed,
+netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.disallow,
                         "authority army vip passenger hov taxi bus coach tram bicycle", False)
 
 # Check undos

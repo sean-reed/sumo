@@ -41,19 +41,19 @@ netedit.inspectMode()
 netedit.leftClick(referencePosition, netedit.positions.network.edge.leftBot)
 
 # Change parameter 7 with an non valid value
-netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.disallowed, "DummyDisallowed", False)
+netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.disallow, "DummyDisallowed", False)
 
 # Change parameter 7 with a valid value (empty)
-netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.disallowed, "", False)
+netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.disallow, "", False)
 
 # Change parameter 7 with a valid value (different separators)
-netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.disallowed, "authority  army, passenger; taxi. tram", False)
+netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.disallow, "authority  army, passenger; taxi. tram", False)
 
 # Change parameter 7 with a valid value (empty)
-netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.disallowed, "", False)
+netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.disallow, "", False)
 
 # Change parameter 7 with a valid value (empty)
-netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.disallowed,
+netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.disallow,
                         "emergency authority army vip passenger hov bus coach tram rail_urban rail " +
                         "rail_electric motorcycle moped pedestrian custom1", False)
 
