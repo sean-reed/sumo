@@ -35,7 +35,7 @@ netedit.rebuildNetwork()
 netedit.inspectMode()
 
 # inspect edge
-netedit.leftClick(referencePosition, netedit.positions.edge.leftBot)
+netedit.leftClick(referencePosition, netedit.positions.network.edge.leftBot)
 
 # Change parameter 10 with an non valid value
 netedit.modifyAttribute(netedit.attrs.edge.inspect.disallowed, "DummyDisallowed", False)

@@ -13,13 +13,10 @@ https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html
 SPDX-License-Identifier: EPL-2.0 OR GPL-2.0-or-later
 -->
 
-<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
-    <!-- StoppingPlaces -->
-    <busStop id="bs_0" lane="correct_ID_0" startPos="45.00" endPos="55.00"/>
-    <busStop id="bs_1" lane="E1_0" startPos="25.00" endPos="35.00"/>
-    <busStop id="bs_2" lane="-E2_0" startPos="25.00" endPos="35.00"/>
-    <chargingStation id="cs_0" lane="-E1_0" startPos="25.00" endPos="35.00"/>
-    <chargingStation id="cs_1" lane="E2_0" startPos="25.00" endPos="35.00"/>
-    <!-- Detectors -->
-    <inductionLoop id="e1_0" lane="correct_ID_0" pos="10.00" period="300.00" file="e1_0.xml"/>
-</additional>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/datamode_file.xsd">
+    <interval id="dataSet" begin="0.00" end="3600.00">
+        <edge id="correct_ID"/>
+        <edgeRelation from="E1" to="-E1"/>
+        <edgeRelation from="-E2" to="E2"/>
+    </interval>
+</data>
