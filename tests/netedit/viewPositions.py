@@ -502,3 +502,48 @@ class elements:
         class planPerson:
             x = 600
             y = 4
+
+
+class dialog:
+
+    class allowVClass:
+        allVehicles = 1
+        onlyRoadVehicles = 2
+        OnlyRailVehicles = 3
+        DisallowAll = 4
+        passenger = 5
+        private = 6
+        taxi = 7
+        bus = 8
+        coach = 9
+        delivery = 10
+        truck = 11
+        trailer = 12
+        emergency = 13
+        motorcycle = 14
+        moped = 15
+        bicycle = 16
+        scooter = 17
+        pedestrian = 18
+        wheelchair = 19
+        tram = 20
+        rail_electric = 21
+        rail_fast = 22
+        rail_urban = 23
+        rail = 24
+        cable_car = 25
+        subway = 26
+        evehicle = 27
+        army = 28
+        ship = 29
+        authority = 30
+        vip = 31
+        hov = 32
+        container = 33
+        aircraft = 34
+        drone = 35
+        custom1 = 36
+        custom2 = 37
+        accept = 38
+        cancel = 39
+        reset = 40
