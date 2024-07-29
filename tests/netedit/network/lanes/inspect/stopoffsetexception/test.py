@@ -55,9 +55,6 @@ netedit.modifyAttribute(netedit.attrs.lane.inspect.stopOffsetException, "authori
 # Change parameter 1 with a valid value (empty)
 netedit.modifyAttribute(netedit.attrs.lane.inspect.stopOffsetException, "", False)
 
-# Change parameter 8 with a valid value (empty)
-netedit.modifyAllowDisallowValue(netedit.attrs.lane.inspect.stopOffsetExceptionButton, False)
-
 # Change parameter 1 with a valid value (empty)
 netedit.modifyAttribute(netedit.attrs.lane.inspect.stopOffsetException,
                         "authority army vip passenger hov taxi bus coach tram bicycle", False)

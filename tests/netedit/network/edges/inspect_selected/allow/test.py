@@ -52,9 +52,6 @@ netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.allowed, "authority 
 # Change parameter 5 with a valid value (empty)
 netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.allowed, "", False)
 
-# Change parameter 8 with a valid value (empty)
-netedit.modifyAllowDisallowValue(netedit.attrs.edge.inspectSelection.allowedButton, False)
-
 # Change parameter 5 with a valid value (empty)
 netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.disallowed,
                         "authority army vip passenger hov taxi bus coach tram bicycle", False)

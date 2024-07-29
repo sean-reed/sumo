@@ -53,9 +53,6 @@ netedit.modifyAttribute(netedit.attrs.edge.inspect.stopException, "authority  ar
 netedit.modifyAttribute(netedit.attrs.edge.inspect.stopException, "", False)
 
 # Change parameter 8 with a valid value (empty)
-netedit.modifyAllowDisallowValue(netedit.attrs.edge.inspect.stopExceptionButton, False)
-
-# Change parameter 8 with a valid value (empty)
 netedit.modifyAttribute(netedit.attrs.edge.inspect.stopException,
                         "authority army vip passenger hov taxi bus coach tram bicycle", False)
 

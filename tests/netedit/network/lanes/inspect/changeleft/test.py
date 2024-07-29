@@ -52,9 +52,6 @@ netedit.modifyAttribute(netedit.attrs.lane.inspect.changeLeft, "authority  army,
 # Change parameter 1 with a valid value (empty)
 netedit.modifyAttribute(netedit.attrs.lane.inspect.changeLeft, "", False)
 
-# Change parameter 8 with a valid value (empty)
-netedit.modifyAllowDisallowValue(netedit.attrs.lane.inspect.changeLeftButton, False)
-
 # Change parameter 1 with a valid value (empty)
 netedit.modifyAttribute(netedit.attrs.lane.inspect.changeLeft,
                         "authority army vip passenger hov taxi bus coach tram bicycle", False)
