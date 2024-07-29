@@ -57,14 +57,8 @@ netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.disallowed,
                         "emergency authority army vip passenger hov bus coach tram rail_urban rail " +
                         "rail_electric motorcycle moped pedestrian custom1", False)
 
-# recompute
-netedit.rebuildNetwork()
-
 # Check undos
 netedit.undo(referencePosition, 3)
-
-# recompute
-netedit.rebuildNetwork()
 
 # check redos
 netedit.redo(referencePosition, 3)

@@ -52,14 +52,8 @@ netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.speed, "-13", False)
 # Change parameter 0 with a valid value
 netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.speed, "120.5", False)
 
-# recompute
-netedit.rebuildNetwork()
-
 # Check undo
 netedit.undo(referencePosition, 1)
-
-# recompute
-netedit.rebuildNetwork()
 
 # Check redo
 netedit.redo(referencePosition, 1)

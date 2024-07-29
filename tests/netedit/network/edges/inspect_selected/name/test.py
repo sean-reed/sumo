@@ -46,14 +46,8 @@ netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.name, "%%%$$$$$%", F
 # Change parameter 11 with a valid value
 netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.name, "my own name", False)
 
-# recompute
-netedit.rebuildNetwork()
-
 # Check undos
 netedit.undo(referencePosition, 1)
-
-# recompute
-netedit.rebuildNetwork()
 
 # check redos
 netedit.redo(referencePosition, 1)

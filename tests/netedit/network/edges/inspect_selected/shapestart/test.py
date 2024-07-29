@@ -52,14 +52,8 @@ netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.shapeStart, "", Fals
 # Change parameter 14 with a valid value
 netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.shapeStart, "14,15.5", False)
 
-# recompute
-netedit.rebuildNetwork()
-
 # Check undos
 netedit.undo(referencePosition, 1)
-
-# recompute
-netedit.rebuildNetwork()
 
 # check redos
 netedit.redo(referencePosition, 1)

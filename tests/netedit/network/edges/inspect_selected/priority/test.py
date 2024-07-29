@@ -52,14 +52,8 @@ netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.priority, "-6", Fals
 # Change parameter 1 with a non valid value (float)
 netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.priority, "6.4", False)
 
-# recompute
-netedit.rebuildNetwork()
-
 # Check undo
 netedit.undo(referencePosition, 1)
-
-# recompute
-netedit.rebuildNetwork()
 
 # Check redo
 netedit.redo(referencePosition, 1)

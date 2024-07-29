@@ -46,14 +46,8 @@ netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.type, "%%$$&&&", Fal
 # Change parameter 3 with a valid value
 netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.type, "customType", False)
 
-# recompute
-netedit.rebuildNetwork()
-
 # Check undo
 netedit.undo(referencePosition, 1)
-
-# recompute
-netedit.rebuildNetwork()
 
 # Check redo
 netedit.redo(referencePosition, 1)

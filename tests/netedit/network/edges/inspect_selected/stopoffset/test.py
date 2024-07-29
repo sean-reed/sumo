@@ -55,14 +55,8 @@ netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.stopOffset, "default
 # Change parameter 12 with a valid value (default)
 netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.stopOffset, "4", False)
 
-# recompute
-netedit.rebuildNetwork()
-
 # Check undos
 netedit.undo(referencePosition, 1)
-
-# recompute
-netedit.rebuildNetwork()
 
 # check redos
 netedit.redo(referencePosition, 1)

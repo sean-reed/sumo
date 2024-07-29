@@ -55,14 +55,8 @@ netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.numLanes, "3.5", Fal
 # Change parameter 2 with a valid value
 netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.numLanes, "4", False)
 
-# recompute
-netedit.rebuildNetwork()
-
 # Check undo
 netedit.undo(referencePosition, 1)
-
-# recompute
-netedit.rebuildNetwork()
 
 # Check redo
 netedit.redo(referencePosition, 1)
