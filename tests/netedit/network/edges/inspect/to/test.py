@@ -35,7 +35,7 @@ netedit.rebuildNetwork()
 netedit.inspectMode()
 
 # inspect edge
-netedit.leftClick(referencePosition, netedit.positions.tmp)
+netedit.leftClick(referencePosition, netedit.positions.edge.leftBot)
 
 # Change parameter 2 with a non valid value (dummy Junction)
 netedit.modifyAttribute(netedit.attrs.edge.inspect.toEdge, "dummy_Junction", False)
@@ -44,10 +44,10 @@ netedit.modifyAttribute(netedit.attrs.edge.inspect.toEdge, "dummy_Junction", Fal
 netedit.modifyAttribute(netedit.attrs.edge.inspect.toEdge, "", False)
 
 # Change parameter 2 with a non valid value (same to Junction)
-netedit.modifyAttribute(netedit.attrs.edge.inspect.toEdge, "gneJ3", False)
+netedit.modifyAttribute(netedit.attrs.edge.inspect.toEdge, "J0", False)
 
 # Change parameter 2 with a non valid value (two edges pararell)
-netedit.modifyAttribute(netedit.attrs.edge.inspect.toEdge, "gneJ1", False)
+netedit.modifyAttribute(netedit.attrs.edge.inspect.toEdge, "J3", False)
 
 # recompute
 netedit.rebuildNetwork()
