@@ -28,9 +28,6 @@ import neteditTestFunctions as netedit  # noqa
 # Open netedit
 neteditProcess, referencePosition = netedit.setupAndStart(neteditTestRoot)
 
-# recompute
-netedit.rebuildNetwork()
-
 # go to inspect mode
 netedit.inspectMode()
 
@@ -49,14 +46,8 @@ netedit.modifyAttribute(netedit.attrs.edge.inspect.toEdge, "J0", False)
 # Change parameter 2 with a non valid value (two edges pararell)
 netedit.modifyAttribute(netedit.attrs.edge.inspect.toEdge, "J3", False)
 
-# recompute
-netedit.rebuildNetwork()
-
 # Check undo
 netedit.undo(referencePosition, 1)
-
-# recompute
-netedit.rebuildNetwork()
 
 # Check redo
 netedit.redo(referencePosition, 1)

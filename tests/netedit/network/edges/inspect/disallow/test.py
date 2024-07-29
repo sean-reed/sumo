@@ -28,9 +28,6 @@ import neteditTestFunctions as netedit  # noqa
 # Open netedit
 neteditProcess, referencePosition = netedit.setupAndStart(neteditTestRoot)
 
-# recompute
-netedit.rebuildNetwork()
-
 # go to inspect mode
 netedit.inspectMode()
 
@@ -53,14 +50,8 @@ netedit.modifyAttribute(netedit.attrs.edge.inspect.disallowed, "", False)
 netedit.modifyAttribute(netedit.attrs.edge.inspect.disallowed,
                         "authority army vip passenger hov taxi bus coach tram bicycle", False)
 
-# recompute
-netedit.rebuildNetwork()
-
 # Check undos
 netedit.undo(referencePosition, 4)
-
-# recompute
-netedit.rebuildNetwork()
 
 # check redos
 netedit.redo(referencePosition, 4)

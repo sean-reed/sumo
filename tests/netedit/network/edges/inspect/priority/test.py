@@ -28,9 +28,6 @@ import neteditTestFunctions as netedit  # noqa
 # Open netedit
 neteditProcess, referencePosition = netedit.setupAndStart(neteditTestRoot)
 
-# recompute
-netedit.rebuildNetwork()
-
 # go to inspect mode
 netedit.inspectMode()
 
@@ -49,14 +46,8 @@ netedit.modifyAttribute(netedit.attrs.edge.inspect.priority, "-6", False)
 # Change parameter 4 with a non valid value (float)
 netedit.modifyAttribute(netedit.attrs.edge.inspect.priority, "6.4", False)
 
-# recompute
-netedit.rebuildNetwork()
-
 # Check undo
 netedit.undo(referencePosition, 1)
-
-# recompute
-netedit.rebuildNetwork()
 
 # Check redo
 netedit.redo(referencePosition, 1)

@@ -28,9 +28,6 @@ import neteditTestFunctions as netedit  # noqa
 # Open netedit
 neteditProcess, referencePosition = netedit.setupAndStart(neteditTestRoot)
 
-# recompute
-netedit.rebuildNetwork()
-
 # go to inspect mode
 netedit.inspectMode()
 
@@ -43,23 +40,14 @@ netedit.modifyAttribute(netedit.attrs.edge.inspect.shape, "dummyShape", False)
 # Change parameter 11 with a valid value (empty)
 netedit.modifyAttribute(netedit.attrs.edge.inspect.shape, "", False)
 
-# recompute
-netedit.rebuildNetwork()
-
 # inspect edge again after recomputing
 netedit.leftClick(referencePosition, netedit.positions.network.edge.leftBot)
 
 # Change parameter 11 with a valid value
 netedit.modifyAttribute(netedit.attrs.edge.inspect.shape, "-25.00,0.00 -25.00,-5.00 -20.00,-5.00 -20.00,0.00 -10.00,0.00 -10.00,-5.00 -5.00,0.00 0.00,-5.00 5.00,0.00 10.00,-5.00 10.00,0.00 20.00,0.00 20.00,-5.00 25.00,-5.00 25.00,0.00", False)
 
-# recompute
-netedit.rebuildNetwork()
-
 # Check undos
 netedit.undo(referencePosition, 1)
-
-# recompute
-netedit.rebuildNetwork()
 
 # check redos
 netedit.redo(referencePosition, 1)

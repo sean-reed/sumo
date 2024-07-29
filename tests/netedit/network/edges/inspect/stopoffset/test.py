@@ -28,9 +28,6 @@ import neteditTestFunctions as netedit  # noqa
 # Open netedit
 neteditProcess, referencePosition = netedit.setupAndStart(neteditTestRoot)
 
-# recompute
-netedit.rebuildNetwork()
-
 # go to inspect mode
 netedit.inspectMode()
 
@@ -52,14 +49,8 @@ netedit.modifyAttribute(netedit.attrs.edge.inspect.stopOffset, "default", False)
 # Change parameter 16 with a valid value (default)
 netedit.modifyAttribute(netedit.attrs.edge.inspect.stopOffset, "4", False)
 
-# recompute
-netedit.rebuildNetwork()
-
 # Check undos
 netedit.undo(referencePosition, 3)
-
-# recompute
-netedit.rebuildNetwork()
 
 # check redos
 netedit.redo(referencePosition, 3)
