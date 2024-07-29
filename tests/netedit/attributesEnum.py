@@ -180,15 +180,6 @@ class edge:
         sidewalkWidth = 18
         bikelaneWidth = 19
 
-    class createLane:
-        add = 24
-        remove = 25
-        speed = 26
-        allowButton = 27
-        allow = 28
-        disallow = 29
-        width = 30
-
     class inspect:
         id = 1
         fromEdge = 2
@@ -260,6 +251,15 @@ class edge:
 
 
 class lane:
+    class create:
+        add = 23
+        remove = 24
+        speed = 25
+        allowButton = 26
+        allow = 27
+        disallow = 28
+        width = 29
+        
     class inspect:
         speed = 1
         allowButton = 2

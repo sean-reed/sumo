@@ -32,32 +32,25 @@ neteditProcess, referencePosition = netedit.setupAndStart(neteditTestRoot)
 netedit.createEdgeMode()
 
 # set attribute
-netedit.changeDefaultValue(netedit.attrs.edge.createLane.allow, "dummy")
+netedit.changeDefaultValue(netedit.attrs.lane.create.allow, "dummy")
 
 # Create two nodes
 netedit.leftClick(referencePosition, netedit.positions.network.junction.positionA)
 netedit.leftClick(referencePosition, netedit.positions.network.junction.positionB)
 
 # set attribute
-netedit.changeDefaultValue(netedit.attrs.edge.createLane.allow, "pedestrian bus")
+netedit.changeDefaultValue(netedit.attrs.lane.create.allow, "pedestrian bus")
 
 # Create two nodes
 netedit.leftClick(referencePosition, netedit.positions.network.junction.positionC)
 netedit.leftClick(referencePosition, netedit.positions.network.junction.positionD)
 
 # set attribute
-netedit.changeDefaultValue(netedit.attrs.edge.createLane.allow, "all")
+netedit.changeDefaultValue(netedit.attrs.lane.create.allow, "all")
 
 # Create two nodes
 netedit.leftClick(referencePosition, netedit.positions.network.junction.positionA)
 netedit.leftClick(referencePosition, netedit.positions.network.junction.positionD)
-
-# set attribute
-netedit.changeDefaultAllowDisallowValue(netedit.attrs.edge.createLane.allowButton)
-
-# Create two nodes
-netedit.leftClick(referencePosition, netedit.positions.network.junction.positionB)
-netedit.leftClick(referencePosition, netedit.positions.network.junction.positionC)
 
 # Check undo and redo
 netedit.checkUndoRedo(referencePosition)

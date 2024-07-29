@@ -1,6 +1,6 @@
 create
 
-#delete
+delete
 
 inspect
 
@@ -8,7 +8,7 @@ inspect_selected
 
 load
 
-#move
+move
 
 select_vtypes
 

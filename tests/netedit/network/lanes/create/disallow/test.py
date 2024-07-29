@@ -32,21 +32,21 @@ neteditProcess, referencePosition = netedit.setupAndStart(neteditTestRoot)
 netedit.createEdgeMode()
 
 # set attribute
-netedit.changeDefaultValue(netedit.attrs.edge.createLane.disallow, "dummy")
+netedit.changeDefaultValue(netedit.attrs.lane.create.disallow, "dummy")
 
 # Create two nodes
 netedit.leftClick(referencePosition, netedit.positions.network.junction.positionA)
 netedit.leftClick(referencePosition, netedit.positions.network.junction.positionB)
 
 # set attribute
-netedit.changeDefaultValue(netedit.attrs.edge.createLane.disallow, "pedestrian bus")
+netedit.changeDefaultValue(netedit.attrs.lane.create.disallow, "pedestrian bus")
 
 # Create two nodes
 netedit.leftClick(referencePosition, netedit.positions.network.junction.positionC)
 netedit.leftClick(referencePosition, netedit.positions.network.junction.positionD)
 
 # set attribute
-netedit.changeDefaultValue(netedit.attrs.edge.createLane.disallow, "all")
+netedit.changeDefaultValue(netedit.attrs.lane.create.disallow, "all")
 
 # Create two nodes
 netedit.leftClick(referencePosition, netedit.positions.network.junction.positionA)
