@@ -31,6 +31,9 @@ neteditProcess, referencePosition = netedit.setupAndStart(neteditTestRoot)
 # go to inspect mode
 netedit.inspectMode()
 
+# toggle select lanes
+netedit.changeEditMode(netedit.attrs.modes.network.selectLane)
+
 # inspect edge
 netedit.leftClick(referencePosition, netedit.positions.network.edge.leftBot)
 
