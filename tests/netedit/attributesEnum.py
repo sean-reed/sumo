@@ -201,8 +201,8 @@ class edge:
         shapeEnd = 19
         distance = 20
         stopOffset = 21
-        stopExceptionButton = 22
-        stopException = 23
+        stopOffsetExceptionButton = 22
+        stopOffsetException = 23
         parameters = 22
 
     class inspectSelection:
@@ -221,8 +221,8 @@ class edge:
         shapeStart = 14
         shapeEnd = 15
         stopOffset = 16
-        stopExceptionButton = 17
-        stopException = 18
+        stopOffsetExceptionButton = 17
+        stopOffsetException = 18
         parameters = 17
 
     class template:
@@ -270,9 +270,9 @@ class lane:
         acceleration = 7
         customShape = 8
         opposite = 9
-        changeLeftButton = 9
+        changeLeftButton = 10
         changeLeft = 11
-        changeRightButton = 11
+        changeRightButton = 12
         changeRight = 13
         type = 14
         stopOffset = 15
