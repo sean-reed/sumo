@@ -28,23 +28,17 @@ import neteditTestFunctions as netedit  # noqa
 # Open netedit
 neteditProcess, referencePosition = netedit.setupAndStart(neteditTestRoot)
 
-# recompute
-netedit.rebuildNetwork()
-
 # go to select mode
 netedit.selectMode()
 
-# select first edge
-netedit.leftClick(referencePosition, netedit.positions.tmp)
-
-# select second edge
-netedit.leftClick(referencePosition, netedit.positions.tmp)
+# select all using invert
+netedit.selectionInvert()
 
 # go to inspect mode
 netedit.inspectMode()
 
 # inspect selected edges
-netedit.leftClick(referencePosition, netedit.positions.tmp)
+netedit.leftClick(referencePosition, netedit.positions.network.edge.leftBot)
 
 # Change parameter 2 with a non valid value (empty lanes)
 netedit.modifyAttribute(netedit.attrs.edge.inspectSelection.numLanes, "", False)
