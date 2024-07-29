@@ -38,7 +38,7 @@ netedit.inspectMode()
 netedit.leftClick(referencePosition, netedit.positions.network.edge.leftBot)
 
 # Change parameter 4 with a non valid value (dummy)
-netedit.modifyAttribute(netedit.attrs.lane.inspect.stopOffset, "dummyStopOffset", False)
+netedit.modifyAttribute(netedit.attrs.lane.inspect.stopOffset, "dummystopOffsetException", False)
 
 # Change parameter 4 with a non valid value (empty)
 netedit.modifyAttribute(netedit.attrs.lane.inspect.stopOffset, "", False)
