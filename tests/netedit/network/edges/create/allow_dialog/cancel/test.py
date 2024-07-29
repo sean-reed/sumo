@@ -35,8 +35,8 @@ netedit.createEdgeMode()
 netedit.modifyAttributeVClassDialog(netedit.attrs.edge.create.allowButton, netedit.attrs.dialog.allowVClass.pedestrian, False, cancel=True)
 
 # Create two nodes
+netedit.leftClick(referencePosition, netedit.positions.network.junction.positionA)
 netedit.leftClick(referencePosition, netedit.positions.network.junction.positionB)
-netedit.leftClick(referencePosition, netedit.positions.network.junction.positionC)
 
 # Check undo and redo
 netedit.checkUndoRedo(referencePosition)
