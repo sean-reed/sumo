@@ -2,6 +2,10 @@ allow_dialog
 
 stopexception_dialog
 
+changeleft_dialog
+
+changeright_dialog
+
 speed
 
 allow
