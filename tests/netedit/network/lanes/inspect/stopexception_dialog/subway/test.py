@@ -32,7 +32,7 @@ neteditProcess, referencePosition = netedit.setupAndStart(neteditTestRoot)
 netedit.inspectMode()
 
 # inspect edge
-netedit.leftClick(referencePosition, netedit.positions.network.lane.leftBot)
+netedit.leftClick(referencePosition, netedit.positions.network.edge.leftBot)
 
 # Change parameter 16 with a valid value (default)
 netedit.modifyAttribute(netedit.attrs.lane.inspect.stopOffset, "4", False)

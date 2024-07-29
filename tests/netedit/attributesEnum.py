@@ -188,9 +188,9 @@ class edge:
         priority = 5
         numLanes = 6
         type = 7
-        allowedButton = 8
-        allowed = 9
-        disallowed = 10
+        allowButton = 8
+        allow = 9
+        disallow = 10
         shape = 11
         length = 12
         spreadType = 13
@@ -210,9 +210,9 @@ class edge:
         priority = 2
         numLanes = 3
         type = 4
-        allowedButton = 5
-        allowed = 6
-        disallowed = 7
+        allowButton = 5
+        allow = 6
+        disallow = 7
         length = 8
         spreadType = 9
         name = 11
@@ -262,7 +262,7 @@ class lane:
         
     class inspect:
         speed = 1
-        allowButton = 2
+        allowButton = 1
         allow = 3
         disallow = 4
         width = 5
@@ -270,9 +270,9 @@ class lane:
         acceleration = 7
         customShape = 8
         opposite = 9
-        changeLeftButton = 10
+        changeLeftButton = 9
         changeLeft = 11
-        changeRightButton = 12
+        changeRightButton = 11
         changeRight = 13
         type = 14
         stopOffset = 15

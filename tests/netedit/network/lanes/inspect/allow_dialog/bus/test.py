@@ -32,10 +32,10 @@ neteditProcess, referencePosition = netedit.setupAndStart(neteditTestRoot)
 netedit.inspectMode()
 
 # inspect edge
-netedit.leftClick(referencePosition, netedit.positions.network.lane.leftBot)
+netedit.leftClick(referencePosition, netedit.positions.network.edge.leftBot)
 
 # Change parameter 8 with a valid value (empty)
-netedit.modifyAttributeVClassDialog(netedit.attrs.lane.inspect.allowedButton, netedit.attrs.dialog.allowVClass.bus, False)
+netedit.modifyAttributeVClassDialog(netedit.attrs.lane.inspect.allowButton, netedit.attrs.dialog.allowVClass.bus, False)
 
 # Check undos
 netedit.undo(referencePosition, 4)
