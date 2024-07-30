@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sumo\n"
 "Report-Msgid-Bugs-To: sumo-dev@eclipse.org\n"
 "POT-Creation-Date: 2024-07-22 10:12+0200\n"
-"PO-Revision-Date: 2024-07-26 11:00+0000\n"
+"PO-Revision-Date: 2024-07-30 12:47+0000\n"
 "Last-Translator: Mirko Barthauer <mirko.barthauer@dlr.de>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/eclipse-sumo/"
 "applications/it/>\n"
@@ -194,7 +194,7 @@ msgstr "Salva posizioni di rivelatori come punti di interesse in FILE"
 
 #: src/dfrouter/RODFFrame.cpp:95
 msgid "Saves emitter definitions for source detectors to FILE"
-msgstr "Salva definizioni di emittenti per rivelatori di origini in FILE"
+msgstr "Salva definizioni di emittenti per rivelatori di sorgenti in FILE"
 
 #: src/dfrouter/RODFFrame.cpp:98
 msgid "Add vehicle types to the emitters file (PKW, LKW)"
@@ -215,12 +215,12 @@ msgstr "Salva posizioni di emittenti come punti di interesse in FILE"
 #: src/dfrouter/RODFFrame.cpp:108
 msgid "Saves variable seed sign definitions for sink detectors to FILE"
 msgstr ""
-"Salva definizioni di limiti di velocità dinamici per rivelatori di "
-"destinazione in FILE"
+"Salva definizioni di limiti di velocità dinamici per rivelatori di scarico "
+"in FILE"
 
 #: src/dfrouter/RODFFrame.cpp:111
 msgid "Saves rerouter definitions for sink detectors to FILE"
-msgstr "Salva definizioni rerouter per rivelatori di destinazione in FILE"
+msgstr "Salva definizioni rerouter per rivelatori di scarico in FILE"
 
 #: src/dfrouter/RODFFrame.cpp:114
 msgid ""
@@ -231,7 +231,7 @@ msgstr ""
 
 #: src/dfrouter/RODFFrame.cpp:117
 msgid "Add source detectors to the validation output"
-msgstr "Aggiungi rivelatori di origine all'output di validazione"
+msgstr "Aggiungi rivelatori di sorgente all'output di validazione"
 
 #: src/dfrouter/RODFFrame.cpp:123
 msgid "Derive missing flow values from upstream or downstream (not working!)"
@@ -334,7 +334,7 @@ msgid ""
 "Whether edges with unknown status can prevent an edge from becoming a source"
 msgstr ""
 "Se degli archi con uno stato sconosciusto possono impedire un arco di "
-"diventare origine"
+"diventare sorgente"
 
 #: src/dfrouter/RODFFrame.cpp:201
 msgid ""
@@ -415,12 +415,12 @@ msgstr "Tipi di rivelatori assegnati:"
 #: src/dfrouter/RODFNet.cpp:143
 #, c-format
 msgid " % source detectors"
-msgstr " % rivelatori di origine"
+msgstr " % rivelatori di sorgente"
 
 #: src/dfrouter/RODFNet.cpp:144
 #, c-format
 msgid " % sink detectors"
-msgstr " % rivelatori di destinazione"
+msgstr " % rivelatori di scarico"
 
 #: src/dfrouter/RODFNet.cpp:145
 #, c-format
@@ -468,7 +468,7 @@ msgstr "Il rivelatore '%' non ha alcun flusso."
 msgid ""
 "Quitting checking for being a source for detector '%' due to seen edge limit."
 msgstr ""
-"Uscita dal processo di associare il rivelatore '%' a un'origine per causa "
+"Uscita dal processo di associare il rivelatore '%' a una sorgente per causa "
 "della soglia di archi visti."
 
 #: src/dfrouter/RODFNet.cpp:790
@@ -486,7 +486,7 @@ msgid ""
 "Quitting checking for being a false source for detector '%' due to seen edge "
 "limit."
 msgstr ""
-"Uscita dal processo di associare il rivelatore '%' a un'origine sbagliata "
+"Uscita dal processo di associare il rivelatore '%' a una sorgente sbagliata "
 "per causa della soglia di archi visti."
 
 #: src/dfrouter/RODFNet.cpp:997
@@ -528,7 +528,7 @@ msgstr "Cerco dei rivelatori vuoti"
 
 #: src/dfrouter/dfrouter_main.cpp:143
 msgid "No source detectors found."
-msgstr "Non ci sono rivelatori di origine."
+msgstr "Non ci sono rivelatori di sorgente."
 
 #: src/dfrouter/dfrouter_main.cpp:147
 msgid "Computing routes"
@@ -2424,7 +2424,7 @@ msgstr ""
 
 #: src/microsim/MSFrame.cpp:695
 msgid "Enables mesoscopic simulation"
-msgstr ""
+msgstr "Attiva la simulazione mesoscopica"
 
 #: src/microsim/MSFrame.cpp:697
 msgid "Length of an edge segment in mesoscopic simulation"
@@ -2462,11 +2462,11 @@ msgstr ""
 
 #: src/microsim/MSFrame.cpp:717
 msgid "Enable mesoscopic traffic light and priority junction handling"
-msgstr ""
+msgstr "Attiva trattamento mesoscopico di semafori e precedenze all'incrocio"
 
 #: src/microsim/MSFrame.cpp:731
 msgid "Enable mesoscopic overtaking"
-msgstr ""
+msgstr "Attiva il sorpasso mesoscopico"
 
 #: src/microsim/MSFrame.cpp:733
 msgid ""
@@ -2511,7 +2511,7 @@ msgstr "Carica una rete secondaria per una visualizzazione astratta da FILE"
 
 #: src/microsim/MSFrame.cpp:773
 msgid "Load pre-selected elements from FILE"
-msgstr ""
+msgstr "Carica elementi preselezionati da FILE"
 
 #: src/microsim/MSFrame.cpp:776
 msgid "Restart the simulation after ending (demo mode)"
@@ -3572,18 +3572,20 @@ msgstr ""
 
 #: src/microsim/devices/MSDevice_DriverState.cpp:75
 msgid "Minimal admissible value for the driver's awareness."
-msgstr ""
+msgstr "Valore minimalmente acettabile della facoltà percettiva del conducente"
 
 #: src/microsim/devices/MSDevice_DriverState.cpp:77
 msgid ""
 "Maximal reaction time (~action step length) induced by decreased awareness "
 "level (reached for awareness=minAwareness)."
 msgstr ""
+"Il massimo tempo di reazione (~passo di azione) indotto da una facoltà "
+"percettiva ridotta (raggiunto con awareness=minAwareness)"
 
 #: src/microsim/devices/MSDevice_ElecHybrid.cpp:102
 #: src/microsim/devices/MSDevice_ElecHybrid.cpp:116
 msgid "Invalid value '%'for vType parameter '%'"
-msgstr ""
+msgstr "Valore invalido '%' del parametro di tipo di veicolo '%'"
 
 #: src/microsim/devices/MSDevice_ElecHybrid.cpp:166
 #: src/microsim/devices/MSDevice_ElecHybrid.cpp:179
@@ -3630,6 +3632,8 @@ msgid ""
 "An exemplary parameter which can be used by all instances of the example "
 "device"
 msgstr ""
+"Un parametro esemplare che può essere usato in tutte le istanze "
+"dell'attrezzo esemplare"
 
 #: src/microsim/devices/MSDevice_Example.cpp:63
 #, c-format
@@ -4969,11 +4973,11 @@ msgstr ""
 
 #: src/microsim/transportables/MSPModel_Striping.cpp:1831
 msgid "Disconnected walk for person '%'."
-msgstr ""
+msgstr "Cammino sconnesso per persona '%'."
 
 #: src/microsim/transportables/MSPModel_Striping.cpp:2038
 msgid "Person '%' is jammed on edge '%', time=%."
-msgstr ""
+msgstr "La persona '%' è bloccata sull'arco '%' alle ore %."
 
 #: src/microsim/transportables/MSStageDriving.cpp:248
 msgid ""
@@ -4992,6 +4996,8 @@ msgid ""
 "Ignoring vehicle type '%' when routing person '%' because it is not allowed "
 "on the start edge."
 msgstr ""
+"Il tipo di veicolo '%' viene ignorato nell'instradamento della persona '%' "
+"perché non è autorizzato sull'arco di partenza."
 
 #: src/microsim/transportables/MSStageWalking.cpp:95
 msgid "Adjusting departPos for cloned walk with routeDistribution '%'"
@@ -5010,6 +5016,8 @@ msgid ""
 "The pedestrian model uses infrastructure which is not in the network, "
 "timeLoss and routeLength may be invalid."
 msgstr ""
+"Il modello pedonale utilizza infrastrutture che non si trova nella rete e "
+"quindi timeLoss e routeLength possono assumere valori invalidi."
 
 #: src/microsim/transportables/MSTransportable.cpp:150
 msgid "Changing a transportable ID is not permitted"
@@ -5024,7 +5032,7 @@ msgstr ""
 
 #: src/microsim/transportables/MSTransportable.cpp:522
 msgid "parkingAreaReroute not supported for containers"
-msgstr ""
+msgstr "parkingAreaReroute non disponibile per contenitori"
 
 #: src/microsim/transportables/MSTransportableControl.cpp:75
 msgid "Unknown pedestrian model '%'"
@@ -5064,22 +5072,30 @@ msgid ""
 "Either 'vehsPerHour',  'speed' or 'type' has to be set in flow definition of "
 "calibrator '%'."
 msgstr ""
+"Soltanto uno degli attributi 'vehsPerHour', 'speed' e 'type' deve far parte "
+"della definizione di flusso del calibrator '%'."
 
 #: src/microsim/trigger/MSCalibrator.cpp:224
 msgid "Type calibration is not supported in meso for calibrator '%'."
 msgstr ""
+"La calibrazione di tipo non è supportata nella simulazione mesoscopica per "
+"il calibrator '%'."
 
 #: src/microsim/trigger/MSCalibrator.cpp:318
 msgid "Calibrator '%' could not remove vehicle '%' time=%."
-msgstr ""
+msgstr "Il calibrator '%' non ha potuto rimuovere il veicolo '%' alle ore %."
 
 #: src/microsim/trigger/MSCalibrator.cpp:699
 msgid "Cannot set flow for calibrator '%' with overlapping interval."
 msgstr ""
+"Non si può configurare un flusso con un intervallo sovrapposto nel "
+"calibrator '%'."
 
 #: src/microsim/trigger/MSCalibrator.cpp:701
 msgid "Cannot set flow for calibrator '%' with negative interval."
 msgstr ""
+"Non si può configurare un flusso nel calibrator '%' con un intervallo "
+"negativo."
 
 #: src/microsim/trigger/MSChargingStation.cpp:46
 #: src/microsim/trigger/MSChargingStation.cpp:51
@@ -9810,21 +9826,21 @@ msgstr ""
 
 #: src/od/ODMatrix.cpp:90
 msgid "Missing origin '%' (% vehicles)."
-msgstr ""
+msgstr "Manca l'origine '%' (% veicoli)."
 
 #: src/od/ODMatrix.cpp:95
 msgid "Missing destination '%' (% vehicles)."
-msgstr ""
+msgstr "Manca la destinazione '%' (% veicoli)."
 
 #: src/od/ODMatrix.cpp:101
 #, c-format
 msgid "District '%' has no source."
-msgstr ""
+msgstr "Il distretto '%' non ha nessuna origine."
 
 #: src/od/ODMatrix.cpp:105
 #, c-format
 msgid "District '%' has no sink."
-msgstr ""
+msgstr "Il distretto '%' non ha nessun scarico."
 
 #: src/od/ODMatrix.cpp:197
 msgid ""
