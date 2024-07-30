@@ -259,7 +259,7 @@ class lane:
         allow = 27
         disallow = 28
         width = 29
-        
+
     class inspect:
         speed = 1
         allowButton = 2

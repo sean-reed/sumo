@@ -35,7 +35,8 @@ netedit.inspectMode()
 netedit.leftClick(referencePosition, netedit.positions.network.edge.leftBot)
 
 # Change parameter 8 with a valid value (empty)
-netedit.modifyAttributeVClassDialog(netedit.attrs.edge.inspect.allowButton, netedit.attrs.dialog.allowVClass.emergency, False)
+netedit.modifyAttributeVClassDialog(netedit.attrs.edge.inspect.allowButton,
+                                    netedit.attrs.dialog.allowVClass.emergency, False)
 
 # Check undos
 netedit.undo(referencePosition, 4)

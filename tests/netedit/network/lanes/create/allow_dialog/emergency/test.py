@@ -32,7 +32,8 @@ neteditProcess, referencePosition = netedit.setupAndStart(neteditTestRoot)
 netedit.createEdgeMode()
 
 # Change parameter 8 with a valid value (empty)
-netedit.modifyAttributeVClassDialog(netedit.attrs.lane.create.allowButton, netedit.attrs.dialog.allowVClass.emergency, False)
+netedit.modifyAttributeVClassDialog(netedit.attrs.lane.create.allowButton,
+                                    netedit.attrs.dialog.allowVClass.emergency, False)
 
 # Create two nodes
 netedit.leftClick(referencePosition, netedit.positions.network.junction.positionA)

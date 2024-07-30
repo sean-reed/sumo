@@ -1119,7 +1119,7 @@ def modifyColorAttribute(attributeNumber, color, overlapped):
     typeSpace()
 
 
-def modifyAttributeVClassDialog(attribute, vClass, overlapped, disallowAll = True, cancel = False, reset = False):
+def modifyAttributeVClassDialog(attribute, vClass, overlapped, disallowAll=True, cancel=False, reset=False):
     """
     @brief modify vclass attribute using dialog
     """
@@ -1141,7 +1141,7 @@ def modifyAttributeVClassDialog(attribute, vClass, overlapped, disallowAll = Tru
             typeTab()
         # Change current value
         typeSpace()
-    # check if cancel 
+    # check if cancel
     if (cancel):
         for _ in range(attrs.dialog.allowVClass.cancel - vClass):
             typeTab()
