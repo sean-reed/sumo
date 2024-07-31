@@ -28,11 +28,17 @@ import neteditTestFunctions as netedit  # noqa
 # Open netedit
 neteditProcess, referencePosition = netedit.setupAndStart(neteditTestRoot)
 
-# go to inspect mode
-netedit.inspectMode()
-
 # toggle select lanes
 netedit.changeEditMode(netedit.attrs.modes.network.selectLane)
+
+# go to select mode
+netedit.selectMode()
+
+# select all using invert
+netedit.selectionInvert()
+
+# go to inspect mode
+netedit.inspectMode()
 
 # inspect edge
 netedit.leftClick(referencePosition, netedit.positions.network.edge.leftBot)
