@@ -39,7 +39,7 @@ netedit.createSquaredShape(referencePosition, netedit.positions.elements.additio
 netedit.inspectMode()
 
 # inspect first TAZ
-netedit.leftClick(referencePosition, netedit.positions.elements.additionals.shapeB)
+netedit.leftClick(referencePosition, netedit.positions.elements.additionals.shapeA)
 
 # Change parameter 6 with a non valid value (dummy)
 netedit.modifyAttribute(netedit.attrs.TAZ.inspect.name, "customName", False)
