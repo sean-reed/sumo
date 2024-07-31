@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-07-31 12:42:03 by Eclipse SUMO netedit Version v1_20_0+1585-7f20689389f
+<!-- generated on 2024-07-31 13:40:23 by Eclipse SUMO netedit Version v1_20_0+1585-7f20689389f
 This data file and the accompanying materials
 are made available under the terms of the Eclipse Public License v2.0
 which accompanies this distribution, and is available at
@@ -14,15 +14,15 @@ SPDX-License-Identifier: EPL-2.0 OR GPL-2.0-or-later
 <neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
-        <additional-files value="/home/palcraft/.texttest/tmp/netedit.gui.31Jul122756.22003/netedit.gui/network/lanes/inspect_selected/stopoffset/additionals.add.xml"/>
-        <route-files value="/home/palcraft/.texttest/tmp/netedit.gui.31Jul122756.22003/netedit.gui/network/lanes/inspect_selected/stopoffset/routes.rou.xml"/>
-        <data-files value="/home/palcraft/.texttest/tmp/netedit.gui.31Jul122756.22003/netedit.gui/network/lanes/inspect_selected/stopoffset/datas.dat.xml"/>
-        <sumo-net-file value="/home/palcraft/.texttest/tmp/netedit.gui.31Jul122756.22003/netedit.gui/network/lanes/inspect_selected/stopoffset/net.net.xml"/>
+        <additional-files value="/home/palcraft/.texttest/tmp/netedit.gui.31Jul132751.23734/netedit.gui/network/lanes/inspect_selected/stopoffset/additionals.add.xml"/>
+        <route-files value="/home/palcraft/.texttest/tmp/netedit.gui.31Jul132751.23734/netedit.gui/network/lanes/inspect_selected/stopoffset/routes.rou.xml"/>
+        <data-files value="/home/palcraft/.texttest/tmp/netedit.gui.31Jul132751.23734/netedit.gui/network/lanes/inspect_selected/stopoffset/datas.dat.xml"/>
+        <sumo-net-file value="/home/palcraft/.texttest/tmp/netedit.gui.31Jul132751.23734/netedit.gui/network/lanes/inspect_selected/stopoffset/net.net.xml"/>
     </input>
 
     <output>
         <write-license value="true"/>
-        <output-file value="/home/palcraft/.texttest/tmp/netedit.gui.31Jul122756.22003/netedit.gui/network/lanes/inspect_selected/stopoffset/net.net.xml"/>
+        <output-file value="/home/palcraft/.texttest/tmp/netedit.gui.31Jul132751.23734/netedit.gui/network/lanes/inspect_selected/stopoffset/net.net.xml"/>
         <output.street-names value="true"/>
     </output>
 
@@ -49,16 +49,16 @@ SPDX-License-Identifier: EPL-2.0 OR GPL-2.0-or-later
     </netedit>
 
     <visualisation>
-        <gui-settings-file value="/home/palcraft/.texttest/tmp/netedit.gui.31Jul122756.22003/netedit.gui/network/lanes/inspect_selected/stopoffset/gui-settings.xml"/>
+        <gui-settings-file value="/home/palcraft/.texttest/tmp/netedit.gui.31Jul132751.23734/netedit.gui/network/lanes/inspect_selected/stopoffset/gui-settings.xml"/>
         <window-size value="1280, 720"/>
         <window-pos value="50,50"/>
         <gui-testing value="true"/>
-        <gui-testing.setting-output value="/home/palcraft/.texttest/tmp/netedit.gui.31Jul122756.22003/netedit.gui/network/lanes/inspect_selected/stopoffset/guisettingsoutput.xml"/>
+        <gui-testing.setting-output value="/home/palcraft/.texttest/tmp/netedit.gui.31Jul132751.23734/netedit.gui/network/lanes/inspect_selected/stopoffset/guisettingsoutput.xml"/>
     </visualisation>
 
     <report>
         <no-warnings value="true"/>
-        <error-log value="/home/palcraft/.texttest/tmp/netedit.gui.31Jul122756.22003/netedit.gui/network/lanes/inspect_selected/stopoffset/log.txt"/>
+        <error-log value="/home/palcraft/.texttest/tmp/netedit.gui.31Jul132751.23734/netedit.gui/network/lanes/inspect_selected/stopoffset/log.txt"/>
     </report>
 
 </neteditConfiguration>
@@ -113,7 +113,7 @@ SPDX-License-Identifier: EPL-2.0 OR GPL-2.0-or-later
         <param key="Key3B" value="Value3B"/>
     </edge>
     <edge id="E0" from="J0" to="J1" priority="-1">
-        <lane id="E0_0" index="0" speed="13.89" length="60.00" shape="-30.00,-1.60 30.00,-1.60" changeLeft="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle moped evehicle rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft drone custom1 custom2">
+        <lane id="E0_0" index="0" speed="13.89" length="60.00" acceleration="1" shape="-30.00,-1.60 30.00,-1.60" changeLeft="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle moped evehicle rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft drone custom1 custom2">
             <stopOffset vClasses="all" value="12.50"/>
         </lane>
     </edge>
