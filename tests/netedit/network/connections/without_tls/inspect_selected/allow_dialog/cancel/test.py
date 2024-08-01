@@ -48,7 +48,7 @@ netedit.leftClick(referencePosition, netedit.positions.network.connection.connec
 
 # Change parameter 8 with a valid value (empty)
 netedit.modifyAttributeVClassDialog(netedit.attrs.connection.inspectSelection.allowButton,
-                                    netedit.attrs.dialog.allowVClass.pedestrian, False, cancel=True)
+                                    netedit.attrs.dialog.allowVClass.pedestrian, True, cancel=True)
 
 # Check undos
 netedit.undo(referencePosition, 4)

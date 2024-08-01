@@ -42,7 +42,7 @@ netedit.leftClick(referencePosition, netedit.positions.network.connection.connec
 
 # Change parameter 8 with a valid value (empty)
 netedit.modifyAttributeVClassDialog(netedit.attrs.connection.inspectTLS.allowButton,
-                                    netedit.attrs.dialog.allowVClass.onlyRoadVehicles, False, disallowAll=False)
+                                    netedit.attrs.dialog.allowVClass.onlyRoadVehicles, True, disallowAll=False)
 
 # Check undos
 netedit.undo(referencePosition, 4)
