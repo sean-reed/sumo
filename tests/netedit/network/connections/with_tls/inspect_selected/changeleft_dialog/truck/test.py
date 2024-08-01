@@ -31,7 +31,13 @@ neteditProcess, referencePosition = netedit.setupAndStart(neteditTestRoot)
 # Rebuild network
 netedit.rebuildNetwork()
 
-# go to inspect mode
+# go to select mode
+netedit.selectMode()
+
+# select all using invert
+netedit.selectionInvert()
+
+# go to inspect mode again
 netedit.inspectMode()
 
 # show connections
