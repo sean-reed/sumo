@@ -232,6 +232,18 @@ class vehicles:
         subMenuAPosition = 2
         subMenuBPosition = 0
         
+        # reverse
+    class reverseTripCurrent:
+        mainMenuPosition = 12
+        subMenuAPosition = 1
+        subMenuBPosition = 0
+        
+    # reverse
+    class reverseTripAdd:
+        mainMenuPosition = 12
+        subMenuAPosition = 2
+        subMenuBPosition = 0
+        
     # transform
     class transformA:
         mainMenuPosition = 12
@@ -240,6 +252,18 @@ class vehicles:
         
     # transform
     class transformB:
+        mainMenuPosition = 12
+        subMenuAPosition = 2
+        subMenuBPosition = 0
+        
+    # transform
+    class transformTripA:
+        mainMenuPosition = 12
+        subMenuAPosition = 1
+        subMenuBPosition = 0
+        
+    # transform
+    class transformTripB:
         mainMenuPosition = 12
         subMenuAPosition = 2
         subMenuBPosition = 0
