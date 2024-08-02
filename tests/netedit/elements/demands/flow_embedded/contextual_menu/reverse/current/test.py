@@ -35,7 +35,7 @@ netedit.supermodeDemand()
 netedit.vehicleMode()
 
 # change vehicle
-netedit.changeElement("flow (from-to edges)")
+netedit.changeElement("flow (embedded route)")
 
 # create trip
 netedit.leftClick(referencePosition, netedit.positions.elements.edge0)
