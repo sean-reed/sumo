@@ -49,7 +49,7 @@ netedit.inspectMode()
 
 # transform
 netedit.contextualMenuOperation(referencePosition, netedit.positions.elements.demands.vehicleEdge,
-                                netedit.contextualMenu.vehicles.vehicles.transform.vehicleEmbedded.routeFlowEmbedded)
+                                netedit.contextualMenu.vehicles.transform.vehicleEmbedded.routeFlowEmbedded)
 
 # transform
 netedit.contextualMenuOperation(referencePosition, netedit.positions.elements.demands.vehicleEdge,
