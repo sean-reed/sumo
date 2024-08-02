@@ -31,24 +31,21 @@ neteditProcess, referencePosition = netedit.setupAndStart(neteditTestRoot)
 # go to demand mode
 netedit.supermodeDemand()
 
-# go to vehicle mode
-netedit.vehicleMode()
+# go to person mode
+netedit.personMode()
 
-# select trip over junctions
-netedit.changeElement("trip (from-to junctions)")
+# create person using three edges
+netedit.leftClick(referencePosition, netedit.positions.elements.edge0)
+netedit.leftClick(referencePosition, netedit.positions.elements.edge2)
 
-# create trip
-netedit.leftClick(referencePosition, netedit.positions.elements.junction0)
-netedit.leftClick(referencePosition, netedit.positions.elements.junction3)
-
-# press enter to create trip
+# press enter to create person
 netedit.typeEnter()
 
 # go to inspect mode
 netedit.inspectMode()
 
 # add to selected
-netedit.contextualMenuOperation(referencePosition, netedit.positions.elements.demands.vehicleJunction,
+netedit.contextualMenuOperation(referencePosition, netedit.positions.elements.demands.person,
                                 netedit.contextualMenu.vehicles.addToSelected)
 
 # delete junction
