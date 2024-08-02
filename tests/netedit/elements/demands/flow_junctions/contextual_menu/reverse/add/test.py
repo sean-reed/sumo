@@ -49,7 +49,7 @@ netedit.inspectMode()
 
 # add to selected
 netedit.contextualMenuOperation(referencePosition, netedit.positions.elements.demands.vehicleJunction,
-                                netedit.contextualMenu.reverseAdd)
+                                netedit.contextualMenu.vehicles.reverseAdd)
 
 # Check undos
 netedit.undo(referencePosition, 2)
