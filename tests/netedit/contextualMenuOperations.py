@@ -244,9 +244,15 @@ class vehicles:
         subMenuAPosition = 2
         subMenuBPosition = 0
 
-    # transform
+    # transform vehicles over junctions
     class transformJunctions:
         mainMenuPosition = 12
+        subMenuAPosition = 1
+        subMenuBPosition = 0
+
+    # transform persons
+    class transformPerson:
+        mainMenuPosition = 11
         subMenuAPosition = 1
         subMenuBPosition = 0
 
