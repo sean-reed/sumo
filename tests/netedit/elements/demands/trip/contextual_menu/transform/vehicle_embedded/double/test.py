@@ -34,9 +34,12 @@ netedit.supermodeDemand()
 # go to vehicle mode
 netedit.vehicleMode()
 
+# select trip over junctions
+netedit.changeElement("trip (from-to junctions)")
+
 # create trip
-netedit.leftClick(referencePosition, netedit.positions.elements.edge0)
-netedit.leftClick(referencePosition, netedit.positions.elements.edge2)
+netedit.leftClick(referencePosition, netedit.positions.elements.junction0)
+netedit.leftClick(referencePosition, netedit.positions.elements.junction3)
 
 # press enter to create trip
 netedit.typeEnter()
@@ -45,12 +48,12 @@ netedit.typeEnter()
 netedit.inspectMode()
 
 # transform
-netedit.contextualMenuOperation(referencePosition, netedit.positions.elements.demands.vehicleEdge,
-                                netedit.contextualMenu.vehicles.transformTripA)
+netedit.contextualMenuOperation(referencePosition, netedit.positions.elements.demands.vehicleJunction,
+                                netedit.contextualMenu.vehicles.transform.trip.vehicleEmbedded)
 
 # transform
-netedit.contextualMenuOperation(referencePosition, netedit.positions.elements.demands.vehicleEdge,
-                                netedit.contextualMenu.vehicles.transformTripA)
+netedit.contextualMenuOperation(referencePosition, netedit.positions.elements.demands.vehicleJunction,
+                                netedit.contextualMenu.vehicles.transform.vehicleEmbedded.trip)
 
 # Check undos
 netedit.undo(referencePosition, 3)
