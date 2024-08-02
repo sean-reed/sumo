@@ -256,6 +256,12 @@ class vehicles:
         subMenuAPosition = 1
         subMenuBPosition = 0
 
+    # transform containers
+    class transformContainer:
+        mainMenuPosition = 11
+        subMenuAPosition = 1
+        subMenuBPosition = 0
+
     class transform:
 
         # from vehicle
