@@ -35,7 +35,7 @@ netedit.supermodeDemand()
 netedit.vehicleMode()
 
 # select trip over junctions
-netedit.changeElement("flow (from-to junctions)")
+netedit.changeElement("trip (from-to junctions)")
 
 # create trip
 netedit.leftClick(referencePosition, netedit.positions.elements.junction0)
