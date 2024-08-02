@@ -225,39 +225,197 @@ class vehicles:
         mainMenuPosition = 11
         subMenuAPosition = 1
         subMenuBPosition = 0
-        
+
     # reverse
     class reverseAdd:
         mainMenuPosition = 11
         subMenuAPosition = 2
         subMenuBPosition = 0
-        
+
         # reverse
     class reverseTripCurrent:
         mainMenuPosition = 12
         subMenuAPosition = 1
         subMenuBPosition = 0
-        
+
     # reverse
     class reverseTripAdd:
         mainMenuPosition = 12
         subMenuAPosition = 2
         subMenuBPosition = 0
-        
+
     # transform
     class transformJunctions:
         mainMenuPosition = 12
         subMenuAPosition = 1
         subMenuBPosition = 0
-        
-    # transform
-    class transformTripA:
-        mainMenuPosition = 12
-        subMenuAPosition = 1
-        subMenuBPosition = 0
-        
-    # transform
-    class transformTripB:
-        mainMenuPosition = 12
-        subMenuAPosition = 2
-        subMenuBPosition = 0
+
+    class transform:
+
+        # from vehicle
+        class vehicle:
+
+            class vehicleEmbedded:
+                mainMenuPosition = 13
+                subMenuAPosition = 1
+                subMenuBPosition = 0
+
+            class routeFlow:
+                mainMenuPosition = 13
+                subMenuAPosition = 2
+                subMenuBPosition = 0
+
+            class routeFlowEmbedded:
+                mainMenuPosition = 13
+                subMenuAPosition = 3
+                subMenuBPosition = 0
+
+            class trip:
+                mainMenuPosition = 13
+                subMenuAPosition = 4
+                subMenuBPosition = 0
+
+            class flow:
+                mainMenuPosition = 13
+                subMenuAPosition = 5
+                subMenuBPosition = 0
+
+        # from vehicle embedded
+        class vehicleEmbedded:
+
+            class vehicle:
+                mainMenuPosition = 13
+                subMenuAPosition = 1
+                subMenuBPosition = 0
+
+            class routeFlow:
+                mainMenuPosition = 13
+                subMenuAPosition = 2
+                subMenuBPosition = 0
+
+            class routeFlowEmbedded:
+                mainMenuPosition = 13
+                subMenuAPosition = 3
+                subMenuBPosition = 0
+
+            class trip:
+                mainMenuPosition = 13
+                subMenuAPosition = 4
+                subMenuBPosition = 0
+
+            class flow:
+                mainMenuPosition = 13
+                subMenuAPosition = 5
+                subMenuBPosition = 0
+
+        # from route flow
+        class routeFlow:
+
+            class vehicle:
+                mainMenuPosition = 13
+                subMenuAPosition = 1
+                subMenuBPosition = 0
+
+            class vehicleEmbedded:
+                mainMenuPosition = 13
+                subMenuAPosition = 2
+                subMenuBPosition = 0
+
+            class routeFlowEmbedded:
+                mainMenuPosition = 13
+                subMenuAPosition = 3
+                subMenuBPosition = 0
+
+            class trip:
+                mainMenuPosition = 13
+                subMenuAPosition = 4
+                subMenuBPosition = 0
+
+            class flow:
+                mainMenuPosition = 13
+                subMenuAPosition = 5
+                subMenuBPosition = 0
+
+        # from route flow embedded
+        class routeFlowEmbedded:
+
+            class vehicle:
+                mainMenuPosition = 13
+                subMenuAPosition = 1
+                subMenuBPosition = 0
+
+            class vehicleEmbedded:
+                mainMenuPosition = 13
+                subMenuAPosition = 2
+                subMenuBPosition = 0
+
+            class routeFlow:
+                mainMenuPosition = 13
+                subMenuAPosition = 3
+                subMenuBPosition = 0
+
+            class trip:
+                mainMenuPosition = 13
+                subMenuAPosition = 4
+                subMenuBPosition = 0
+
+            class flow:
+                mainMenuPosition = 13
+                subMenuAPosition = 5
+                subMenuBPosition = 0
+
+        # from trip
+        class trip:
+
+            class vehicle:
+                mainMenuPosition = 13
+                subMenuAPosition = 1
+                subMenuBPosition = 0
+
+            class vehicleEmbedded:
+                mainMenuPosition = 13
+                subMenuAPosition = 2
+                subMenuBPosition = 0
+
+            class routeFlow:
+                mainMenuPosition = 13
+                subMenuAPosition = 3
+                subMenuBPosition = 0
+
+            class routeFlowEmbedded:
+                mainMenuPosition = 13
+                subMenuAPosition = 4
+                subMenuBPosition = 0
+
+            class flow:
+                mainMenuPosition = 13
+                subMenuAPosition = 5
+                subMenuBPosition = 0
+
+        # from flow
+        class flow:
+
+            class vehicle:
+                mainMenuPosition = 13
+                subMenuAPosition = 1
+                subMenuBPosition = 0
+
+            class vehicleEmbedded:
+                mainMenuPosition = 13
+                subMenuAPosition = 2
+                subMenuBPosition = 0
+
+            class routeFlow:
+                mainMenuPosition = 13
+                subMenuAPosition = 3
+                subMenuBPosition = 0
+
+            class routeFlowEmbedded:
+                mainMenuPosition = 13
+                subMenuAPosition = 4
+                subMenuBPosition = 0
+
+            class trip:
+                mainMenuPosition = 13
+                subMenuAPosition = 5
+                subMenuBPosition = 0
