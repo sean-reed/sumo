@@ -31,18 +31,25 @@ neteditProcess, referencePosition = netedit.setupAndStart(neteditTestRoot)
 # go to demand mode
 netedit.supermodeDemand()
 
+# go to route mode
+netedit.routeMode()
+
+# create route using three edges
+netedit.leftClick(referencePosition, netedit.positions.elements.edge0)
+netedit.leftClick(referencePosition, netedit.positions.elements.edge1)
+netedit.leftClick(referencePosition, netedit.positions.elements.edge2)
+
+# press enter to create route
+netedit.typeEnter()
+
 # go to vehicle mode
 netedit.vehicleMode()
 
-# change vehicle
-netedit.changeElement("flow (from-to edges)")
+# select vehicle
+netedit.changeElement("vehicle (over route)")
 
-# create trip
+# create vehicle
 netedit.leftClick(referencePosition, netedit.positions.elements.edge0)
-netedit.leftClick(referencePosition, netedit.positions.elements.edge2)
-
-# press enter to create trip
-netedit.typeEnter()
 
 # go to inspect mode
 netedit.inspectMode()
