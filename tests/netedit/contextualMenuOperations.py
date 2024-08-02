@@ -245,15 +245,9 @@ class vehicles:
         subMenuBPosition = 0
         
     # transform
-    class transformA:
+    class transformJunctions:
         mainMenuPosition = 12
         subMenuAPosition = 1
-        subMenuBPosition = 0
-        
-    # transform
-    class transformB:
-        mainMenuPosition = 12
-        subMenuAPosition = 2
         subMenuBPosition = 0
         
     # transform
