@@ -10,6 +10,10 @@ reverse_edge
 
 add_reverse_direction
 
+add_reverse_direction_disconnected
+
+reset_lenght
+
 straigthen_edge
 
 smooth_edge
@@ -17,7 +21,3 @@ smooth_edge
 straighten_elevation_edge
 
 smooth_elevation_edge
-
-reset_lenght
-
-reverse_direction_disconnected

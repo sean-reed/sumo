@@ -185,13 +185,13 @@ class edges:
         # set geometry point
         class setGeometryPoint:
             mainMenuPosition = 13
-            subMenuAPosition = 2
+            subMenuAPosition = 3
             subMenuBPosition = 0
 
         # restore geometry point
         class restoreGeometryPoint:
-            mainMenuPosition = 13
-            subMenuAPosition = 3
+            mainMenuPosition = 14
+            subMenuAPosition = 4
             subMenuBPosition = 0
 
         # reverse edge
@@ -219,25 +219,25 @@ class edges:
             subMenuBPosition = 0
 
         # straighteen
-        class straighteen:
+        class straigthenEdge:
+            mainMenuPosition = 13
+            subMenuAPosition = 7
+            subMenuBPosition = 0
+
+        # smooth
+        class smoothEdge:
             mainMenuPosition = 13
             subMenuAPosition = 8
             subMenuBPosition = 0
 
-        # smooth
-        class smooth:
-            mainMenuPosition = 13
-            subMenuAPosition = 9
-            subMenuBPosition = 0
-
         # straighteen elevation
-        class straighteenElevation:
+        class straightenElevationEdge:
             mainMenuPosition = 13
             subMenuAPosition = 10
             subMenuBPosition = 0
 
         # smooth elevation
-        class smoothElevation:
+        class smoothElevationEdge:
             mainMenuPosition = 13
             subMenuAPosition = 11
             subMenuBPosition = 0
