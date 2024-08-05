@@ -269,7 +269,7 @@ class elements:
     class edge1:
         x = 850
         y = 222
-        
+
     class edge1_dataMode:
         x = 850
         y = 222 + 30
@@ -285,7 +285,7 @@ class elements:
     class edge2:
         x = 494
         y = 26
-        
+
     class edge2_dataMode:
         x = 494
         y = 26 + 30
@@ -301,7 +301,7 @@ class elements:
     class edge3:
         x = 477
         y = 56
-        
+
     class edge3_dataMode:
         x = 477
         y = 56 + 30
@@ -317,7 +317,7 @@ class elements:
     class edge4:
         x = 817
         y = 235
-        
+
     class edge4_dataMode:
         x = 817
         y = 235 + 30
@@ -333,7 +333,7 @@ class elements:
     class edge5:
         x = 515
         y = 413
-        
+
     class edge5_dataMode:
         x = 515
         y = 413 + 30
@@ -396,7 +396,7 @@ class elements:
         down = -70
         left = -70
         right = 70
-        
+
     class movementRadiusB:
         up = 100
         down = -100

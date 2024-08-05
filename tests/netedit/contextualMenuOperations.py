@@ -175,7 +175,7 @@ class edges:
             mainMenuPosition = 13
             subMenuAPosition = 1
             subMenuBPosition = 0
-            
+
         # split edge in both directions
         class splitEdgeBothDirection:
             mainMenuPosition = 13
@@ -199,13 +199,13 @@ class edges:
             mainMenuPosition = 13
             subMenuAPosition = 4
             subMenuBPosition = 0
-            
+
         # add reverse direction
         class addReverseDirection:
             mainMenuPosition = 13
             subMenuAPosition = 5
             subMenuBPosition = 0
-            
+
         # add reverse direction disconnected
         class addReverseDirectionDisconnected:
             mainMenuPosition = 13
@@ -217,25 +217,25 @@ class edges:
             mainMenuPosition = 13
             subMenuAPosition = 7
             subMenuBPosition = 0
-            
+
         # straighteen
         class straighteen:
             mainMenuPosition = 13
             subMenuAPosition = 8
             subMenuBPosition = 0
-            
+
         # smooth
         class smooth:
             mainMenuPosition = 13
             subMenuAPosition = 9
             subMenuBPosition = 0
-            
+
         # straighteen elevation
         class straighteenElevation:
             mainMenuPosition = 13
             subMenuAPosition = 10
             subMenuBPosition = 0
-            
+
         # smooth elevation
         class smoothElevation:
             mainMenuPosition = 13
@@ -250,79 +250,79 @@ class edges:
             mainMenuPosition = 14
             subMenuAPosition = 1
             subMenuBPosition = 0
-            
+
         # set custom lane shape
         class setCustomLaneShape:
             mainMenuPosition = 14
             subMenuAPosition = 2
             subMenuBPosition = 0
-            
+
         # reset custom lane shape
         class resetCustomShape:
             mainMenuPosition = 14
             subMenuAPosition = 3
             subMenuBPosition = 0
-            
+
         # reset opposite lane
         class resetOppositeLane:
             mainMenuPosition = 14
             subMenuAPosition = 3
             subMenuBPosition = 0
-            
+
         # add restricted lane
         class addRestrictedLane:
-            
+
             # sidewalk
             class sidewalk:
                 mainMenuPosition = 14
                 subMenuAPosition = 4
                 subMenuBPosition = 1
-                
+
             # sidewalk
             class bikeLane:
                 mainMenuPosition = 14
                 subMenuAPosition = 4
                 subMenuBPosition = 2
-                
+
             # sidewalk
             class busLane:
                 mainMenuPosition = 14
                 subMenuAPosition = 4
                 subMenuBPosition = 3
-                
+
             # green verge (front)
             class greenVergeFront:
                 mainMenuPosition = 14
                 subMenuAPosition = 4
                 subMenuBPosition = 4
-                
+
             # green verge (back)
             class greenVergeBack:
                 mainMenuPosition = 14
                 subMenuAPosition = 4
                 subMenuBPosition = 5
-                
+
         # remove restricted lane
         class removeRestrictedLane:
-            
+
             # sidewalk
             class sidewalk:
                 mainMenuPosition = 14
                 subMenuAPosition = 5
                 subMenuBPosition = 1
-                
+
             # sidewalk
             class bikeLane:
                 mainMenuPosition = 14
                 subMenuAPosition = 5
                 subMenuBPosition = 2
-                
+
             # sidewalk
             class busLane:
                 mainMenuPosition = 14
                 subMenuAPosition = 5
                 subMenuBPosition = 3
-                
+
             # green verge
             class greenVerge:
                 mainMenuPosition = 14
@@ -331,31 +331,31 @@ class edges:
 
         # transform to restricted lane
         class TransformToRestrictedLane:
-            
+
             # sidewalk
             class sidewalk:
                 mainMenuPosition = 14
                 subMenuAPosition = 5
                 subMenuBPosition = 1
-                
+
             # sidewalk
             class bikeLane:
                 mainMenuPosition = 14
                 subMenuAPosition = 5
                 subMenuBPosition = 2
-                
+
             # sidewalk
             class busLane:
                 mainMenuPosition = 14
                 subMenuAPosition = 5
                 subMenuBPosition = 3
-                
+
             # green verge
             class greenVerge:
                 mainMenuPosition = 14
                 subMenuAPosition = 5
                 subMenuBPosition = 4
-                
+
     class templateOperations:
 
         # use edge as template
@@ -363,7 +363,7 @@ class edges:
             mainMenuPosition = 15
             subMenuAPosition = 1
             subMenuBPosition = 0
-            
+
         # apply template
         class applyTemplate:
             mainMenuPosition = 15
