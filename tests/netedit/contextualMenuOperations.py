@@ -172,26 +172,26 @@ class edges:
 
         # duplicate lane
         class duplicateLane:
-            mainMenuPosition = 11
+            mainMenuPosition = 14
             subMenuAPosition = 1
             subMenuBPosition = 0
             
         # set custom lane shape
         class setCustomLaneShape:
-            mainMenuPosition = 11
-            subMenuAPosition = 1
+            mainMenuPosition = 14
+            subMenuAPosition = 2
             subMenuBPosition = 0
             
         # reset custom lane shape
         class resetCustomLaneShape:
-            mainMenuPosition = 11
-            subMenuAPosition = 1
+            mainMenuPosition = 14
+            subMenuAPosition = 3
             subMenuBPosition = 0
             
         # reset opposite lane
         class resetOppositeLane:
-            mainMenuPosition = 11
-            subMenuAPosition = 1
+            mainMenuPosition = 14
+            subMenuAPosition = 4
             subMenuBPosition = 0
             
         # add restricted lane
@@ -199,87 +199,87 @@ class edges:
             
             # sidewalk
             class sidewalk:
-                mainMenuPosition = 11
-                subMenuAPosition = 1
-                subMenuBPosition = 0
+                mainMenuPosition = 14
+                subMenuAPosition = 4
+                subMenuBPosition = 1
                 
             # sidewalk
             class bikeLane:
-                mainMenuPosition = 11
-                subMenuAPosition = 1
-                subMenuBPosition = 0
+                mainMenuPosition = 14
+                subMenuAPosition = 4
+                subMenuBPosition = 2
                 
             # sidewalk
             class busLane:
-                mainMenuPosition = 11
-                subMenuAPosition = 1
-                subMenuBPosition = 0
+                mainMenuPosition = 14
+                subMenuAPosition = 4
+                subMenuBPosition = 3
                 
             # green verge (front)
             class greenVergeFront:
-                mainMenuPosition = 11
-                subMenuAPosition = 1
-                subMenuBPosition = 0
+                mainMenuPosition = 14
+                subMenuAPosition = 4
+                subMenuBPosition = 4
                 
             # green verge (back)
             class greenVergeBack:
-                mainMenuPosition = 11
-                subMenuAPosition = 1
-                subMenuBPosition = 0
+                mainMenuPosition = 14
+                subMenuAPosition = 4
+                subMenuBPosition = 5
                 
         # remove restricted lane
         class removeRestrictedLane:
             
             # sidewalk
             class sidewalk:
-                mainMenuPosition = 11
-                subMenuAPosition = 1
-                subMenuBPosition = 0
+                mainMenuPosition = 14
+                subMenuAPosition = 4
+                subMenuBPosition = 1
                 
             # sidewalk
             class bikeLane:
-                mainMenuPosition = 11
-                subMenuAPosition = 1
-                subMenuBPosition = 0
+                mainMenuPosition = 14
+                subMenuAPosition = 4
+                subMenuBPosition = 2
                 
             # sidewalk
             class busLane:
-                mainMenuPosition = 11
-                subMenuAPosition = 1
-                subMenuBPosition = 0
+                mainMenuPosition = 14
+                subMenuAPosition = 4
+                subMenuBPosition = 3
                 
             # green verge
             class greenVerge:
-                mainMenuPosition = 11
-                subMenuAPosition = 1
-                subMenuBPosition = 0
+                mainMenuPosition = 14
+                subMenuAPosition = 4
+                subMenuBPosition = 4
 
         # transform to restricted lane
         class TransformToRestrictedLane:
             
             # sidewalk
             class sidewalk:
-                mainMenuPosition = 11
-                subMenuAPosition = 1
-                subMenuBPosition = 0
+                mainMenuPosition = 14
+                subMenuAPosition = 4
+                subMenuBPosition = 1
                 
             # sidewalk
             class bikeLane:
-                mainMenuPosition = 11
-                subMenuAPosition = 1
-                subMenuBPosition = 0
+                mainMenuPosition = 14
+                subMenuAPosition = 4
+                subMenuBPosition = 2
                 
             # sidewalk
             class busLane:
-                mainMenuPosition = 11
-                subMenuAPosition = 1
-                subMenuBPosition = 0
+                mainMenuPosition = 14
+                subMenuAPosition = 4
+                subMenuBPosition = 3
                 
             # green verge
             class greenVerge:
-                mainMenuPosition = 11
-                subMenuAPosition = 1
-                subMenuBPosition = 0
+                mainMenuPosition = 14
+                subMenuAPosition = 4
+                subMenuBPosition = 4
 
 # vehicles
 
