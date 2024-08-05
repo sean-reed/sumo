@@ -13,7 +13,4 @@
         <stop busStop="bs_2" duration="60.00"/>
         <stop busStop="bs_1" duration="60.00"/>
     </route>
-    <!-- Vehicles, persons and containers (sorted by depart) -->
-    <vehicle id="v_0" depart="0.00" route="r_0"/>
-    <vehicle id="v_1" depart="0.00" route="r_1"/>
 </routes>
