@@ -35,8 +35,8 @@ netedit.rebuildNetwork()
 netedit.inspectMode()
 
 # straigthen edge
-netedit.contextualMenuOperation(referencePosition, 480, 111, netedit.attrs.edge.contextualMenuEdgeA,
-                                netedit.attrs.edge.contextualMenu.straighteenElevation)
+netedit.contextualMenuOperation(referencePosition, netedit.positions.network.edge.leftBot,
+                                netedit.contextualMenu.edges.straightenElevationEdge)
 
 # recompute
 netedit.rebuildNetwork()

@@ -168,6 +168,81 @@ class junction:
 
 class edges:
 
+    class edgeOperations:
+
+        # split edge
+        class splitEdge:
+            mainMenuPosition = 13
+            subMenuAPosition = 1
+            subMenuBPosition = 0
+            
+        # split edge in both directions
+        class splitEdgeBothDirection:
+            mainMenuPosition = 13
+            subMenuAPosition = 2
+            subMenuBPosition = 0
+
+        # set geometry point
+        class setGeometryPoint:
+            mainMenuPosition = 13
+            subMenuAPosition = 2
+            subMenuBPosition = 0
+
+        # restore geometry point
+        class restoreGeometryPoint:
+            mainMenuPosition = 13
+            subMenuAPosition = 3
+            subMenuBPosition = 0
+
+        # reverse edge
+        class reverseEdge:
+            mainMenuPosition = 13
+            subMenuAPosition = 4
+            subMenuBPosition = 0
+            
+        # add reverse direction
+        class addReverseDirection:
+            mainMenuPosition = 13
+            subMenuAPosition = 5
+            subMenuBPosition = 0
+            
+        # add reverse direction disconnected
+        class addReverseDirectionDisconnected:
+            mainMenuPosition = 13
+            subMenuAPosition = 6
+            subMenuBPosition = 0
+
+        # reset lenght
+        class resetLenght:
+            mainMenuPosition = 13
+            subMenuAPosition = 7
+            subMenuBPosition = 0
+            
+        # straighteen
+        class straighteen:
+            mainMenuPosition = 13
+            subMenuAPosition = 8
+            subMenuBPosition = 0
+            
+        # smooth
+        class smooth:
+            mainMenuPosition = 13
+            subMenuAPosition = 9
+            subMenuBPosition = 0
+            
+        # straighteen elevation
+        class straighteenElevation:
+            mainMenuPosition = 13
+            subMenuAPosition = 10
+            subMenuBPosition = 0
+            
+        # smooth elevation
+        class smoothElevation:
+            mainMenuPosition = 13
+            subMenuAPosition = 11
+            subMenuBPosition = 0
+
+
     class laneOperations:
 
         # duplicate lane
