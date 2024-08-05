@@ -33,7 +33,7 @@ netedit.inspectMode()
 
 # remove restricted lane
 netedit.contextualMenuOperation(referencePosition, netedit.positions.network.edge.leftBot,
-                                netedit.contextualMenu.edges.laneOperations.duplicateLane)
+                                netedit.contextualMenu.edges.laneOperations.resetCustomShape)
 
 # Check undos
 netedit.undo(referencePosition, 1)

@@ -1,27 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-08-05 11:09:26 by Eclipse SUMO netedit Version v1_20_0+1528-fbf81e3bf5b
-This data file and the accompanying materials
-are made available under the terms of the Eclipse Public License v2.0
-which accompanies this distribution, and is available at
-http://www.eclipse.org/legal/epl-v20.html
-This file may also be made available under the following Secondary
-Licenses when the conditions for such availability set forth in the Eclipse
-Public License 2.0 are satisfied: GNU General Public License, version 2
-or later which is available at
-https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html
-SPDX-License-Identifier: EPL-2.0 OR GPL-2.0-or-later
+<!-- generated on 2024-08-05 13:41:13 by Eclipse SUMO netedit Version v1_20_0+1528-fbf81e3bf5b
 <neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
-        <additional-files value="C:\Users\alva_pa\.texttest\tmp\netedit.gui.05Aug110824.35084\netedit.gui\network\edges\contextual_menu\lane_operations\add_restricted_lane\buslane\additionals.add.xml"/>
-        <route-files value="C:\Users\alva_pa\.texttest\tmp\netedit.gui.05Aug110824.35084\netedit.gui\network\edges\contextual_menu\lane_operations\add_restricted_lane\buslane\routes.rou.xml"/>
-        <data-files value="C:\Users\alva_pa\.texttest\tmp\netedit.gui.05Aug110824.35084\netedit.gui\network\edges\contextual_menu\lane_operations\add_restricted_lane\buslane\datas.dat.xml"/>
         <sumo-net-file value="D:\Netedit_dev\tests\netedit\network\edges\contextual_menu\lane_operations\net.net.xml"/>
     </input>
 
     <output>
-        <write-license value="true"/>
         <output-file value="D:\Netedit_dev\tests\netedit\network\edges\contextual_menu\lane_operations\net.net.xml"/>
     </output>
 
@@ -42,23 +28,6 @@ SPDX-License-Identifier: EPL-2.0 OR GPL-2.0-or-later
     <pedestrian>
         <walkingareas value="0"/>
     </pedestrian>
-
-    <netedit>
-        <ignore-supermode-question value="true"/>
-    </netedit>
-
-    <visualisation>
-        <gui-settings-file value="C:\Users\alva_pa\.texttest\tmp\netedit.gui.05Aug110824.35084\netedit.gui\network\edges\contextual_menu\lane_operations\add_restricted_lane\buslane\gui-settings.xml"/>
-        <window-size value="1280, 720"/>
-        <window-pos value="50,50"/>
-        <gui-testing value="true"/>
-        <gui-testing.setting-output value="C:\Users\alva_pa\.texttest\tmp\netedit.gui.05Aug110824.35084\netedit.gui\network\edges\contextual_menu\lane_operations\add_restricted_lane\buslane\guisettingsoutput.xml"/>
-    </visualisation>
-
-    <report>
-        <no-warnings value="true"/>
-        <error-log value="C:\Users\alva_pa\.texttest\tmp\netedit.gui.05Aug110824.35084\netedit.gui\network\edges\contextual_menu\lane_operations\add_restricted_lane\buslane\log.txt"/>
-    </report>
 
 </neteditConfiguration>
 -->
@@ -81,10 +50,14 @@ SPDX-License-Identifier: EPL-2.0 OR GPL-2.0-or-later
     </edge>
 
     <edge id="-E0" from="J1" to="J0" priority="-1">
-        <lane id="-E0_0" index="0" disallow="pedestrian" speed="13.89" length="60.00" shape="30.00,1.60 -30.00,1.60"/>
+        <lane id="-E0_0" index="0" disallow="pedestrian" speed="13.89" length="60.00" shape="30.00,1.60 -30.00,1.60">
+            <neigh lane="E0_0"/>
+        </lane>
     </edge>
     <edge id="E0" from="J0" to="J1" priority="-1">
-        <lane id="E0_0" index="0" disallow="pedestrian" speed="13.89" length="60.00" shape="-30.00,-1.60 30.00,-1.60"/>
+        <lane id="E0_0" index="0" disallow="pedestrian" speed="13.89" length="60.00" shape="-30.00,-1.60 30.00,-1.60">
+            <neigh lane="-E0_0"/>
+        </lane>
     </edge>
     <edge id="EdgeExternBot" from="JunctionExtern0" to="JunctionExtern1" priority="-1" length="175.00" shape="-60.00,0.00 -45.00,0.00 -45.00,-25.00 -40.00,-30.00 40.00,-30.00 45.00,-25.00 45.00,0.00 60.00,0.00">
         <lane id="EdgeExternBot_0" index="0" disallow="pedestrian" speed="13.89" length="175.00" width="3.00" shape="-60.00,-1.50 -46.50,-1.50 -46.50,-25.62 -40.62,-31.50 40.62,-31.50 46.50,-25.62 46.50,-1.50 60.00,-1.50"/>
