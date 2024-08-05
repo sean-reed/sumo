@@ -280,6 +280,20 @@ class edges:
                 mainMenuPosition = 14
                 subMenuAPosition = 5
                 subMenuBPosition = 4
+                
+    class templateOperations:
+
+        # use edge as template
+        class useEdgeAsTemplate:
+            mainMenuPosition = 15
+            subMenuAPosition = 1
+            subMenuBPosition = 0
+            
+        # apply template
+        class applyTemplate:
+            mainMenuPosition = 15
+            subMenuAPosition = 2
+            subMenuBPosition = 0
 
 # vehicles
 
