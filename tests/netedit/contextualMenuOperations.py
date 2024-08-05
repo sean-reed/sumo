@@ -20,6 +20,9 @@
 # --------------------------------
 
 # center element in view
+from calendar import c
+
+
 class center:
     mainMenuPosition = 3
     subMenuAPosition = 0
@@ -160,6 +163,123 @@ class junction:
         subMenuAPosition = 0
         subMenuBPosition = 0
 
+# lanes
+
+
+class edges:
+
+    class laneOperations:
+
+        # duplicate lane
+        class duplicateLane:
+            mainMenuPosition = 11
+            subMenuAPosition = 1
+            subMenuBPosition = 0
+            
+        # set custom lane shape
+        class setCustomLaneShape:
+            mainMenuPosition = 11
+            subMenuAPosition = 1
+            subMenuBPosition = 0
+            
+        # reset custom lane shape
+        class resetCustomLaneShape:
+            mainMenuPosition = 11
+            subMenuAPosition = 1
+            subMenuBPosition = 0
+            
+        # reset opposite lane
+        class resetOppositeLane:
+            mainMenuPosition = 11
+            subMenuAPosition = 1
+            subMenuBPosition = 0
+            
+        # add restricted lane
+        class addRestrictedLane:
+            
+            # sidewalk
+            class sidewalk:
+                mainMenuPosition = 11
+                subMenuAPosition = 1
+                subMenuBPosition = 0
+                
+            # sidewalk
+            class bikeLane:
+                mainMenuPosition = 11
+                subMenuAPosition = 1
+                subMenuBPosition = 0
+                
+            # sidewalk
+            class busLane:
+                mainMenuPosition = 11
+                subMenuAPosition = 1
+                subMenuBPosition = 0
+                
+            # green verge (front)
+            class greenVergeFront:
+                mainMenuPosition = 11
+                subMenuAPosition = 1
+                subMenuBPosition = 0
+                
+            # green verge (back)
+            class greenVergeBack:
+                mainMenuPosition = 11
+                subMenuAPosition = 1
+                subMenuBPosition = 0
+                
+        # remove restricted lane
+        class removeRestrictedLane:
+            
+            # sidewalk
+            class sidewalk:
+                mainMenuPosition = 11
+                subMenuAPosition = 1
+                subMenuBPosition = 0
+                
+            # sidewalk
+            class bikeLane:
+                mainMenuPosition = 11
+                subMenuAPosition = 1
+                subMenuBPosition = 0
+                
+            # sidewalk
+            class busLane:
+                mainMenuPosition = 11
+                subMenuAPosition = 1
+                subMenuBPosition = 0
+                
+            # green verge
+            class greenVerge:
+                mainMenuPosition = 11
+                subMenuAPosition = 1
+                subMenuBPosition = 0
+
+        # transform to restricted lane
+        class TransformToRestrictedLane:
+            
+            # sidewalk
+            class sidewalk:
+                mainMenuPosition = 11
+                subMenuAPosition = 1
+                subMenuBPosition = 0
+                
+            # sidewalk
+            class bikeLane:
+                mainMenuPosition = 11
+                subMenuAPosition = 1
+                subMenuBPosition = 0
+                
+            # sidewalk
+            class busLane:
+                mainMenuPosition = 11
+                subMenuAPosition = 1
+                subMenuBPosition = 0
+                
+            # green verge
+            class greenVerge:
+                mainMenuPosition = 11
+                subMenuAPosition = 1
+                subMenuBPosition = 0
 
 # vehicles
 
