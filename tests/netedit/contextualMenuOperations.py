@@ -183,7 +183,7 @@ class edges:
             subMenuBPosition = 0
             
         # reset custom lane shape
-        class resetCustomLaneShape:
+        class resetCustomShape:
             mainMenuPosition = 14
             subMenuAPosition = 3
             subMenuBPosition = 0
@@ -191,7 +191,7 @@ class edges:
         # reset opposite lane
         class resetOppositeLane:
             mainMenuPosition = 14
-            subMenuAPosition = 4
+            subMenuAPosition = 3
             subMenuBPosition = 0
             
         # add restricted lane
@@ -233,25 +233,25 @@ class edges:
             # sidewalk
             class sidewalk:
                 mainMenuPosition = 14
-                subMenuAPosition = 4
+                subMenuAPosition = 5
                 subMenuBPosition = 1
                 
             # sidewalk
             class bikeLane:
                 mainMenuPosition = 14
-                subMenuAPosition = 4
+                subMenuAPosition = 5
                 subMenuBPosition = 2
                 
             # sidewalk
             class busLane:
                 mainMenuPosition = 14
-                subMenuAPosition = 4
+                subMenuAPosition = 5
                 subMenuBPosition = 3
                 
             # green verge
             class greenVerge:
                 mainMenuPosition = 14
-                subMenuAPosition = 4
+                subMenuAPosition = 5
                 subMenuBPosition = 4
 
         # transform to restricted lane
@@ -260,25 +260,25 @@ class edges:
             # sidewalk
             class sidewalk:
                 mainMenuPosition = 14
-                subMenuAPosition = 4
+                subMenuAPosition = 5
                 subMenuBPosition = 1
                 
             # sidewalk
             class bikeLane:
                 mainMenuPosition = 14
-                subMenuAPosition = 4
+                subMenuAPosition = 5
                 subMenuBPosition = 2
                 
             # sidewalk
             class busLane:
                 mainMenuPosition = 14
-                subMenuAPosition = 4
+                subMenuAPosition = 5
                 subMenuBPosition = 3
                 
             # green verge
             class greenVerge:
                 mainMenuPosition = 14
-                subMenuAPosition = 4
+                subMenuAPosition = 5
                 subMenuBPosition = 4
 
 # vehicles

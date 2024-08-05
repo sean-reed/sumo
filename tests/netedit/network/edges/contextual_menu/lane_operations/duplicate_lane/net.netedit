@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-08-05 13:10:08 by Eclipse SUMO netedit Version v1_20_0+1528-fbf81e3bf5b
+<!-- generated on 2024-08-05 13:49:47 by Eclipse SUMO netedit Version v1_20_0+1528-fbf81e3bf5b
 This data file and the accompanying materials
 are made available under the terms of the Eclipse Public License v2.0
 which accompanies this distribution, and is available at
@@ -14,15 +14,15 @@ SPDX-License-Identifier: EPL-2.0 OR GPL-2.0-or-later
 <neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
-        <additional-files value="C:\Users\alva_pa\.texttest\tmp\netedit.gui.05Aug130926.15628\netedit.gui\network\edges\contextual_menu\lane_operations\duplicate_lane\additionals.add.xml"/>
-        <route-files value="C:\Users\alva_pa\.texttest\tmp\netedit.gui.05Aug130926.15628\netedit.gui\network\edges\contextual_menu\lane_operations\duplicate_lane\routes.rou.xml"/>
-        <data-files value="C:\Users\alva_pa\.texttest\tmp\netedit.gui.05Aug130926.15628\netedit.gui\network\edges\contextual_menu\lane_operations\duplicate_lane\datas.dat.xml"/>
-        <sumo-net-file value="C:\Users\alva_pa\.texttest\tmp\netedit.gui.05Aug130926.15628\netedit.gui\network\edges\contextual_menu\lane_operations\duplicate_lane\net.net.xml"/>
+        <additional-files value="C:\Users\alva_pa\.texttest\tmp\netedit.gui.05Aug134905.23188\netedit.gui\network\edges\contextual_menu\lane_operations\duplicate_lane\additionals.add.xml"/>
+        <route-files value="C:\Users\alva_pa\.texttest\tmp\netedit.gui.05Aug134905.23188\netedit.gui\network\edges\contextual_menu\lane_operations\duplicate_lane\routes.rou.xml"/>
+        <data-files value="C:\Users\alva_pa\.texttest\tmp\netedit.gui.05Aug134905.23188\netedit.gui\network\edges\contextual_menu\lane_operations\duplicate_lane\datas.dat.xml"/>
+        <sumo-net-file value="C:\Users\alva_pa\.texttest\tmp\netedit.gui.05Aug134905.23188\netedit.gui\network\edges\contextual_menu\lane_operations\duplicate_lane\net.net.xml"/>
     </input>
 
     <output>
         <write-license value="true"/>
-        <output-file value="C:\Users\alva_pa\.texttest\tmp\netedit.gui.05Aug130926.15628\netedit.gui\network\edges\contextual_menu\lane_operations\duplicate_lane\net.net.xml"/>
+        <output-file value="C:\Users\alva_pa\.texttest\tmp\netedit.gui.05Aug134905.23188\netedit.gui\network\edges\contextual_menu\lane_operations\duplicate_lane\net.net.xml"/>
     </output>
 
     <processing>
@@ -48,16 +48,16 @@ SPDX-License-Identifier: EPL-2.0 OR GPL-2.0-or-later
     </netedit>
 
     <visualisation>
-        <gui-settings-file value="C:\Users\alva_pa\.texttest\tmp\netedit.gui.05Aug130926.15628\netedit.gui\network\edges\contextual_menu\lane_operations\duplicate_lane\gui-settings.xml"/>
+        <gui-settings-file value="C:\Users\alva_pa\.texttest\tmp\netedit.gui.05Aug134905.23188\netedit.gui\network\edges\contextual_menu\lane_operations\duplicate_lane\gui-settings.xml"/>
         <window-size value="1280, 720"/>
         <window-pos value="50,50"/>
         <gui-testing value="true"/>
-        <gui-testing.setting-output value="C:\Users\alva_pa\.texttest\tmp\netedit.gui.05Aug130926.15628\netedit.gui\network\edges\contextual_menu\lane_operations\duplicate_lane\guisettingsoutput.xml"/>
+        <gui-testing.setting-output value="C:\Users\alva_pa\.texttest\tmp\netedit.gui.05Aug134905.23188\netedit.gui\network\edges\contextual_menu\lane_operations\duplicate_lane\guisettingsoutput.xml"/>
     </visualisation>
 
     <report>
         <no-warnings value="true"/>
-        <error-log value="C:\Users\alva_pa\.texttest\tmp\netedit.gui.05Aug130926.15628\netedit.gui\network\edges\contextual_menu\lane_operations\duplicate_lane\log.txt"/>
+        <error-log value="C:\Users\alva_pa\.texttest\tmp\netedit.gui.05Aug134905.23188\netedit.gui\network\edges\contextual_menu\lane_operations\duplicate_lane\log.txt"/>
     </report>
 
 </neteditConfiguration>
@@ -81,11 +81,15 @@ SPDX-License-Identifier: EPL-2.0 OR GPL-2.0-or-later
     </edge>
 
     <edge id="-E0" from="J1" to="J0" priority="-1">
-        <lane id="-E0_0" index="0" disallow="pedestrian" speed="13.89" length="60.00" shape="30.00,1.60 -30.00,1.60"/>
+        <lane id="-E0_0" index="0" disallow="pedestrian" speed="13.89" length="60.00" shape="30.00,1.60 -30.00,1.60">
+            <neigh lane="E0_1"/>
+        </lane>
     </edge>
     <edge id="E0" from="J0" to="J1" priority="-1">
         <lane id="E0_0" index="0" disallow="pedestrian" speed="13.89" length="60.00" shape="-30.00,-4.80 30.00,-4.80"/>
-        <lane id="E0_1" index="1" disallow="pedestrian" speed="13.89" length="60.00" shape="-30.00,-1.60 30.00,-1.60"/>
+        <lane id="E0_1" index="1" disallow="pedestrian" speed="13.89" length="60.00" shape="-30.00,-1.60 30.00,-1.60">
+            <neigh lane="-E0_0"/>
+        </lane>
     </edge>
     <edge id="EdgeExternBot" from="JunctionExtern0" to="JunctionExtern1" priority="-1" length="175.00" shape="-60.00,0.00 -45.00,0.00 -45.00,-25.00 -40.00,-30.00 40.00,-30.00 45.00,-25.00 45.00,0.00 60.00,0.00">
         <lane id="EdgeExternBot_0" index="0" disallow="pedestrian" speed="13.89" length="175.00" width="3.00" shape="-60.00,-1.50 -46.50,-1.50 -46.50,-25.62 -40.62,-31.50 40.62,-31.50 46.50,-25.62 46.50,-1.50 60.00,-1.50"/>
