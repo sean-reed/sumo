@@ -31,10 +31,9 @@ neteditProcess, referencePosition = netedit.setupAndStart(neteditTestRoot)
 # go to inspect mode
 netedit.inspectMode()
 
-# transform to restricted lane
-netedit.contextualMenuOperation(referencePosition, 400, 150, netedit.attrs.lane.contextualMenuLane,
-                                netedit.attrs.lane.contextualMenu.transformRestrictedLane,
-                                netedit.attrs.lane.restrictedLanes.bikelane)
+# transform restricted lane
+netedit.contextualMenuOperation(referencePosition, netedit.positions.network.edge.leftBot,
+                                netedit.contextualMenu.edges.laneOperations.TransformToRestrictedLane.bikeLane)
 
 # Check undos
 netedit.undo(referencePosition, 1)

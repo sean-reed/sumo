@@ -13,10 +13,17 @@ https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html
 SPDX-License-Identifier: EPL-2.0 OR GPL-2.0-or-later
 -->
 
-<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
-    <!-- StoppingPlaces -->
-    <busStop id="bs_0" lane="E0_1" startPos="5.00" endPos="15.00"/>
-    <busStop id="bs_1" lane="-E0_0" startPos="45.00" endPos="55.00"/>
-    <busStop id="bs_2" lane="-E0_0" startPos="5.00" endPos="15.00"/>
-    <busStop id="bs_3" lane="E0_1" startPos="45.00" endPos="55.00"/>
-</additional>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Routes -->
+    <route id="r_0" edges="E0">
+        <stop busStop="bs_0" duration="60.00"/>
+        <stop busStop="bs_3" duration="60.00"/>
+    </route>
+    <route id="r_1" edges="-E0">
+        <stop busStop="bs_2" duration="60.00"/>
+        <stop busStop="bs_1" duration="60.00"/>
+    </route>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <vehicle id="v_0" depart="0.00" route="r_0"/>
+    <vehicle id="v_1" depart="0.00" route="r_1"/>
+</routes>

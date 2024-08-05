@@ -32,9 +32,8 @@ neteditProcess, referencePosition = netedit.setupAndStart(neteditTestRoot)
 netedit.inspectMode()
 
 # remove restricted lane
-netedit.contextualMenuOperation(referencePosition, 400, 150, netedit.attrs.lane.contextualMenuLane,
-                                netedit.attrs.lane.contextualMenu.removeRestrictedLane,
-                                netedit.attrs.lane.restrictedLanes.bikelane)
+netedit.contextualMenuOperation(referencePosition, netedit.positions.network.edge.leftBot,
+                                netedit.contextualMenu.edges.laneOperations.removeRestrictedLane.bikeLane)
 
 # Check undos
 netedit.undo(referencePosition, 1)
