@@ -36,7 +36,7 @@ netedit.inspectMode()
 
 # smooth edge
 netedit.contextualMenuOperation(referencePosition, netedit.positions.network.edge.leftBot,
-                                netedit.contextualMenu.edges.smoothElevationEdge)
+                                netedit.contextualMenu.edges.edgeOperations.smoothElevationEdge)
 
 # recompute
 netedit.rebuildNetwork()

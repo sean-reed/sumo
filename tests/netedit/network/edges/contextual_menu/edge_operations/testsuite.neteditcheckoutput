@@ -8,7 +8,7 @@ restore_geometry_point
 
 reverse_edge
 
-reverse_direction
+add_reverse_direction
 
 straigthen_edge
 
