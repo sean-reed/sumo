@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-11-06 08:43:03 by Eclipse SUMO netedit Version v1_18_0+2429-1a41f4aa074
-<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+<!-- generated on 2024-08-05 13:41:16 by Eclipse SUMO netedit Version v1_20_0+1528-fbf81e3bf5b
+<neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="D:\SUMO\tests\netedit\netelements\edges\contextual_menu\reset_lenght\net.net.xml"/>
+        <sumo-net-file value="D:\Netedit_dev\tests\netedit\network\edges\contextual_menu\lane_operations\net.net.xml"/>
     </input>
 
     <processing>
@@ -25,14 +25,14 @@
         <walkingareas value="0"/>
     </pedestrian>
 
-</configuration>
+</neteditConfiguration>
 -->
 
-<nodes version="1.16" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
-    <location netOffset="25.00,0.00" convBoundary="0.00,0.00,50.00,20.00" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+<nodes version="1.20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+    <location netOffset="0.00,0.00" convBoundary="-60.00,-30.00,60.00,30.00" origBoundary="-10000000000.000000,-10000000000.000000,10000000000.000000,10000000000.000000" projParameter="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"/>
 
-    <node id="gneJ0" x="0.00" y="0.00" type="priority"/>
-    <node id="gneJ1" x="50.00" y="0.00" type="priority"/>
-    <node id="gneJ2" x="0.00" y="20.00" type="priority"/>
-    <node id="gneJ3" x="50.00" y="20.00" type="dead_end"/>
+    <node id="J0" x="-30.00" y="0.00" type="traffic_light" tl="J0"/>
+    <node id="J1" x="30.00" y="0.00" type="traffic_light" tl="J1"/>
+    <node id="JunctionExtern0" x="-60.00" y="0.00" type="priority"/>
+    <node id="JunctionExtern1" x="60.00" y="0.00" type="priority"/>
 </nodes>
