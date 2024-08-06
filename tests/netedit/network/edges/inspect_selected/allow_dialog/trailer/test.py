@@ -28,6 +28,12 @@ import neteditTestFunctions as netedit  # noqa
 # Open netedit
 neteditProcess, referencePosition = netedit.setupAndStart(neteditTestRoot)
 
+# go to select mode
+netedit.selectMode()
+
+# select all using invert
+netedit.selectionInvert()
+
 # go to inspect mode
 netedit.inspectMode()
 
@@ -35,7 +41,7 @@ netedit.inspectMode()
 netedit.leftClick(referencePosition, netedit.positions.network.edge.leftBot)
 
 # Change parameter 8 with a valid value (empty)
-netedit.modifyAttributeVClassDialog(netedit.attrs.edge.inspect.allowButton,
+netedit.modifyAttributeVClassDialog(netedit.attrs.edgeedge.inspectSelection.allowButton,
                                     netedit.attrs.dialog.allowVClass.trailer, False)
 
 # Check undos
