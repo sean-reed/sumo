@@ -203,7 +203,7 @@ class edge:
         stopOffset = 21
         stopOffsetExceptionButton = 22
         stopOffsetException = 23
-        parameters = 22
+        parameters = 24
 
     class inspectSelection:
         speed = 1
