@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sumo\n"
 "Report-Msgid-Bugs-To: sumo-dev@eclipse.org\n"
 "POT-Creation-Date: 2024-07-22 10:12+0200\n"
-"PO-Revision-Date: 2024-08-05 13:37+0000\n"
+"PO-Revision-Date: 2024-08-07 12:12+0000\n"
 "Last-Translator: Mirko Barthauer <mirko.barthauer@dlr.de>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/eclipse-sumo/"
 "applications/it/>\n"
@@ -1972,20 +1972,29 @@ msgid ""
 "Sets the fraction of minGap that must be maintained to avoid collision "
 "detection. If a negative value is given, the carFollowModel parameter is used"
 msgstr ""
+"Imposta la frazione di minGap da mantenere per evitare di rilevare una "
+"collisione. Si usa il parametro del modello di guida se viene impostato a un "
+"valore negativo"
 
 #: src/microsim/MSFrame.cpp:403
 msgid ""
 "After a vehicle arrives, keep it in memory for the given TIME (for TraCI "
 "access)"
 msgstr ""
+"Mantieni un veicolo nella simulazione dopo l'arrivo per TIME (per poter "
+"accederci tramite TraCI)"
 
 #: src/microsim/MSFrame.cpp:406
 msgid "Delay vehicle insertion to stay within the given maximum number"
 msgstr ""
+"Ritarda l'inserzione di veicoli per non eccedere il dato numero massimo di "
+"veicoli"
 
 #: src/microsim/MSFrame.cpp:409
 msgid "Delay person insertion to stay within the given maximum number"
 msgstr ""
+"Ritarda l'inserzione di persone per non eccedere il dato numero massimo di "
+"persone"
 
 #: src/microsim/MSFrame.cpp:412
 msgid ""
@@ -2571,7 +2580,7 @@ msgstr ""
 
 #: src/microsim/MSFrame.cpp:879
 msgid "You can either restart or quit on end."
-msgstr ""
+msgstr "Si può ricominciare o uscire alle fine."
 
 #: src/microsim/MSFrame.cpp:884
 msgid ""
@@ -6140,27 +6149,27 @@ msgstr ""
 
 #: src/netbuild/NBFrame.cpp:676
 msgid "Remove edges where type is in STR[]"
-msgstr ""
+msgstr "Rimuovi archi che hanno un tipo contenuto in STR[]"
 
 #: src/netbuild/NBFrame.cpp:680
 msgid "Removes isolated edges"
-msgstr ""
+msgstr "Rimuove archi isolati"
 
 #: src/netbuild/NBFrame.cpp:687
 msgid "All nodes will be unregulated"
-msgstr ""
+msgstr "Tutti i nodi saranno privi di regole di precedenza"
 
 #: src/netbuild/NBFrame.cpp:692
 msgid "Do not regulate nodes in STR[]"
-msgstr ""
+msgstr "Non regolare nodi in STR[]"
 
 #: src/netbuild/NBFrame.cpp:696
 msgid "Do not regulate district nodes"
-msgstr ""
+msgstr "Non regolare nodi di distretti"
 
 #: src/netbuild/NBFrame.cpp:702
 msgid "Enable ramp-guessing"
-msgstr ""
+msgstr "Attiva euristica di rampe"
 
 #: src/netbuild/NBFrame.cpp:705
 msgid ""
@@ -8580,7 +8589,7 @@ msgstr "Si è prodotto un distretto raddoppiato ('%')."
 
 #: src/netimport/NIImporter_VISUM.cpp:368
 msgid "Unable to project coordinates for point %."
-msgstr ""
+msgstr "La proiezione delle coordinate del punto % non si può eseguire."
 
 #: src/netimport/NIImporter_VISUM.cpp:458
 #: src/netimport/NIImporter_VISUM.cpp:475
@@ -8628,11 +8637,11 @@ msgstr "Un numero di corsie dell'arco '%' non è positivo (%)."
 
 #: src/netimport/NIImporter_VISUM.cpp:781
 msgid "A lane length for edge '%' is not numeric (%)."
-msgstr ""
+msgstr "Un lunghezza di corsia dell'arco non è numerica (%)."
 
 #: src/netimport/NIImporter_VISUM.cpp:785
 msgid "A lane length for edge '%' is not positive (%)."
-msgstr ""
+msgstr "Una lunghezza di corsia dell'arco '%' non è positiva (%)."
 
 #: src/netimport/NIImporter_VISUM.cpp:846
 msgid "Could not find split position for edge '%'."
@@ -10093,32 +10102,35 @@ msgstr "Non sono stati trovati nella rete i parametri di proiezione."
 #: src/polyconvert/PCTypeDefHandler.cpp:80
 msgid "Could not add polygon type '%' (probably the id is already used)."
 msgstr ""
+"Non ho potuto aggiungere il tipo di poligono '%' (probabilmente il codice "
+"identificativo è già in uso)."
 
 #: src/polyconvert/polyconvert_main.cpp:81
 msgid "Loads SUMO-network FILE as reference to offset and projection"
 msgstr ""
+"Carica la rete SUMO da FILE come referenza per lo spostamento e la proiezione"
 
 #: src/polyconvert/polyconvert_main.cpp:85
 msgid ""
 "Reads polygons from FILE assuming they're coded in DLR-Navteq (Elmar)-format"
-msgstr ""
+msgstr "Carica poligoni da FILE supponendo un formato DLR-Navteq (Elmar)"
 
 #: src/polyconvert/polyconvert_main.cpp:87
 msgid ""
 "Reads pois from FILE assuming they're coded in DLR-Navteq (Elmar)-format"
-msgstr ""
+msgstr "Carica poligoni da FILE supponendo un formato DLR-Navteq (Elmar)"
 
 #: src/polyconvert/polyconvert_main.cpp:92
 msgid "Reads polygons from FILE assuming it's a Visum-net"
-msgstr ""
+msgstr "Carica poligoni da FILE supponendo un formato di rete Visum"
 
 #: src/polyconvert/polyconvert_main.cpp:100
 msgid "Reads pois and shapes from FILE assuming they're coded in XML"
-msgstr ""
+msgstr "Carica punti di interesse e forme da FILE supponendo un formato XML"
 
 #: src/polyconvert/polyconvert_main.cpp:105
 msgid "Reads pois from FILE assuming they're coded in OSM"
-msgstr ""
+msgstr "Carica punti di interesse da FILE supponendo un formato OSM"
 
 #: src/polyconvert/polyconvert_main.cpp:107
 msgid "The type will be made of the key-value - pair"
@@ -10140,7 +10152,7 @@ msgstr ""
 
 #: src/polyconvert/polyconvert_main.cpp:122
 msgid "Guesses the shapefile's projection"
-msgstr ""
+msgstr "Indovina la proiezione del shapefile"
 
 #: src/polyconvert/polyconvert_main.cpp:130
 msgid "Defines in which column the id can be found"
